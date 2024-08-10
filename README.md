@@ -67,11 +67,11 @@ A: Yes it is. This datapack follows the [Smithed](https://wiki.smithed.dev/conve
   </summary>
   <p>
     
-You can craft the Small Backpack and the Ender Backpack in the crafting table like this:
+You can craft the Small Backpack (3 total slots) and the Ender Backpack in the crafting table like this:
 
 ![https://i.imgur.com/mNtkJNV.png](https://i.imgur.com/mNtkJNV.png)
 
-You can upgrade the Small Backpacks 3 times:
+You can upgrade the Small Backpacks 3 times (9, 18 and 40 slots respectively):
 
 ![https://i.imgur.com/fOSBRyk.png](https://i.imgur.com/fOSBRyk.png)
 
@@ -109,8 +109,20 @@ You can contribute to this project by translating it to other languages! Just ma
     🖥️ Commands
   </summary>
   <p>
-    
-You can create a custom backpack with a simple command! Here's how:
+
+You can give yourself a Backpack with the following command:
+
+```mcfunction
+/function backpacks:give/backpack/tiers/(tier)
+```
+
+You can also give yourself an Ender Backpack like this:
+
+```mcfunction
+/function backpacks:give/backpack/enderchest
+```
+
+You can also create a custom backpack with a simple command! Here's how:
 
 ```mcfunction
 /function backpacks:give/backpack/custom {item_id:"",model_data:0,slots:0}
@@ -140,8 +152,6 @@ Here's the full list of custom model datas and their item ids if you want to use
   </summary>
   <p>
     
-- [Evtema3](https://github.com/Evtema3)'s shader method for hiding nametags ([here](https://discord.com/channels/154777837382008833/157097006500806656/1181814993537220658)).
-- [AmberWat](https://github.com/AmberWat)'s [Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont) used for hiding the nametags in [Evtema3](https://github.com/Evtema3)'s shader.
 - [Highmore](https://github.com/DefinitelyHighmore)'s library [Sentinel](https://github.com/DefinitelyHighmore/sentinel) for detecting closing containers (may cause visual flickering of items inside backpacks).
 - [Mitsaori](https://www.instagram.com/mitsaori/)'s backpacks models.
 
