@@ -1,0 +1,28 @@
+{
+    "id": "backpacks",
+    "pack": {
+      "pack_format": 48,
+      "supported_formats": [
+        48,
+        48
+      ],
+      "description": [
+        {
+          "text": "Backpacks! ",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": "- ",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "☽ Eclipse Studios",
+          "color": "blue",
+          "bold": false
+        }
+      ]
+    }
+  }
+  

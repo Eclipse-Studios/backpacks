@@ -1,0 +1,329 @@
+{
+    "criteria": {
+      "b0_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b0_0\"]}"
+          }
+        }
+      },
+      "b0_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b0_1\"]}"
+          }
+        }
+      },
+      "b1_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b1_0\"]}"
+          }
+        }
+      },
+      "b1_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b1_1\"]}"
+          }
+        }
+      },
+      "b2_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b2_0\"]}"
+          }
+        }
+      },
+      "b2_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b2_1\"]}"
+          }
+        }
+      },
+      "b3_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b3_0\"]}"
+          }
+        }
+      },
+      "b3_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b3_1\"]}"
+          }
+        }
+      },
+      "b4_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b4_0\"]}"
+          }
+        }
+      },
+      "b4_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b4_1\"]}"
+          }
+        }
+      },
+      "b5_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b5_0\"]}"
+          }
+        }
+      },
+      "b5_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b5_1\"]}"
+          }
+        }
+      },
+      "b6_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b6_0\"]}"
+          }
+        }
+      },
+      "b6_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b6_1\"]}"
+          }
+        }
+      },
+      "b7_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b7_0\"]}"
+          }
+        }
+      },
+      "b7_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b7_1\"]}"
+          }
+        }
+      },
+      "b8_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b8_0\"]}"
+          }
+        }
+      },
+      "b8_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b8_1\"]}"
+          }
+        }
+      },
+      "b9_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b9_0\"]}"
+          }
+        }
+      },
+      "b9_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b9_1\"]}"
+          }
+        }
+      },
+      "b10_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b10_0\"]}"
+          }
+        }
+      },
+      "b10_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b10_1\"]}"
+          }
+        }
+      },
+      "b11_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b11_0\"]}"
+          }
+        }
+      },
+      "b11_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b11_1\"]}"
+          }
+        }
+      },
+      "b12_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b12_0\"]}"
+          }
+        }
+      },
+      "b12_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b12_1\"]}"
+          }
+        }
+      },
+      "b13_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b13_0\"]}"
+          }
+        }
+      },
+      "b13_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b13_1\"]}"
+          }
+        }
+      },
+      "b14_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b14_0\"]}"
+          }
+        }
+      },
+      "b14_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b14_1\"]}"
+          }
+        }
+      },
+      "b15_0": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b15_0\"]}"
+          }
+        }
+      },
+      "b15_1": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[\"senti.b15_1\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "b0_0",
+        "b0_1"
+      ], 
+      [
+        "b1_0",
+        "b1_1"
+      ], 
+      [
+        "b2_0",
+        "b2_1"
+      ], 
+      [
+        "b3_0",
+        "b3_1"
+      ], 
+      [
+        "b4_0",
+        "b4_1"
+      ], 
+      [
+        "b5_0",
+        "b5_1"
+      ], 
+      [
+        "b6_0",
+        "b6_1"
+      ], 
+      [
+        "b7_0",
+        "b7_1"
+      ], 
+      [
+        "b8_0",
+        "b8_1"
+      ], 
+      [
+        "b9_0",
+        "b9_1"
+      ], 
+      [
+        "b10_0",
+        "b10_1"
+      ], 
+      [
+        "b11_0",
+        "b11_1"
+      ], 
+      [
+        "b12_0",
+        "b12_1"
+      ], 
+      [
+        "b13_0",
+        "b13_1"
+      ], 
+      [
+        "b14_0",
+        "b14_1"
+      ], 
+      [
+        "b15_0",
+        "b15_1"
+      ]
+    ],
+    "rewards": {
+      "function": "senti:zprivate/viewer/open/init"
+    }
+  }

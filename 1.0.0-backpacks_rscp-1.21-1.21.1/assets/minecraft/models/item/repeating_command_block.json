@@ -1,0 +1,108 @@
+{
+    "parent": "minecraft:block/repeating_command_block",
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 9951631
+        },
+        "model": "backpacks:item/backpacks/normal/3/black"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951632
+        },
+        "model": "backpacks:item/backpacks/normal/3/blue"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951633
+        },
+        "model": "backpacks:item/backpacks/normal/3/brown"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951634
+        },
+        "model": "backpacks:item/backpacks/normal/3/cyan"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951635
+        },
+        "model": "backpacks:item/backpacks/normal/3/gray"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951636
+        },
+        "model": "backpacks:item/backpacks/normal/3/green"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951637
+        },
+        "model": "backpacks:item/backpacks/normal/3/light_blue"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951638
+        },
+        "model": "backpacks:item/backpacks/normal/3/light_gray"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951639
+        },
+        "model": "backpacks:item/backpacks/normal/3/lime"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951640
+        },
+        "model": "backpacks:item/backpacks/normal/3/magenta"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951641
+        },
+        "model": "backpacks:item/backpacks/normal/3/orange"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951642
+        },
+        "model": "backpacks:item/backpacks/normal/3/pink"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951643
+        },
+        "model": "backpacks:item/backpacks/normal/3/purple"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951644
+        },
+        "model": "backpacks:item/backpacks/normal/3/red"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951645
+        },
+        "model": "backpacks:item/backpacks/normal/3/white"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951646
+        },
+        "model": "backpacks:item/backpacks/normal/3/yellow"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951647
+        },
+        "model": "backpacks:item/backpacks/normal/3/nether"
+      }
+    ]
+  }
+  

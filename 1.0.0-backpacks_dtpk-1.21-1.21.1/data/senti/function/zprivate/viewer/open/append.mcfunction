@@ -1,0 +1,1 @@
+$data modify storage senti:open root[{id:$(target)}].viewers append from storage senti:viewers root[{id:$(viewer)}]

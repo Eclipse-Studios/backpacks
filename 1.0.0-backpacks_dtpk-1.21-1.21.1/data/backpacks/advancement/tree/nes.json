@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chain_command_block",
+        "components": {
+          "minecraft:custom_model_data": 9951633
+        }
+      },
+      "title": {
+        "translate": "advancements.backpacks.nes"
+      },
+      "description": {
+        "translate": "advancements.backpacks.nes.desc"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "backpacks:tree/adventurer",
+    "criteria": {
+      "backpacks:upgrade_to_2": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/upgrade/2"
+        }
+      },
+      "backpacks:upgrade_to_3": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/upgrade/3"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "backpacks:upgrade_to_2",
+        "backpacks:upgrade_to_3"
+      ]
+    ]
+  }
+  

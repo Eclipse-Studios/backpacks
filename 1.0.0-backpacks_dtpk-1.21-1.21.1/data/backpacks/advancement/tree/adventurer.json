@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:command_block",
+        "components": {
+          "minecraft:custom_model_data": 9951633
+        }
+      },
+      "title": {
+        "translate": "advancements.backpacks.adventurer"
+      },
+      "description": {
+        "translate": "advancements.backpacks.adventurer.desc"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "backpacks:tree/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:crafting_table/small"
+        }
+      }
+    }
+  }
+  

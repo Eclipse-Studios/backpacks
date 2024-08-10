@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "player.cursor": {
+          "predicates": {
+            "minecraft:custom_data": "{menu_backpack:{}}"
+          }
+        }
+      }
+    }
+  }
+  

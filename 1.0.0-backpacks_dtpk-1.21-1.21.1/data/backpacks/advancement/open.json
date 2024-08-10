@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "nbt": "{Tags:[backpacks.backpack_menu_ready]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "backpacks:bp/open/main"
+    }
+  }
+  

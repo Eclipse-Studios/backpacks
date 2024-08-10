@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:custom_model_data": 9951633
+      }
+    },
+    "title": {
+      "translate": "advancements.backpacks.max"
+    },
+    "description": {
+      "translate": "advancements.backpacks.max.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "backpacks:tree/nes",
+  "criteria": {
+    "backpacks:upgrade_to_max": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "backpacks:smithing/upgrade/4"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "backpacks:upgrade_to_max"
+    ]
+  ]
+}

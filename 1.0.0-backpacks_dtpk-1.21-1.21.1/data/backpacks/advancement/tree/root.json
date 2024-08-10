@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:repeating_command_block",
+        "components": {
+          "minecraft:custom_model_data": 9951633
+        }
+      },
+      "title": {
+        "translate": "advancements.backpacks.root"
+      },
+      "description": {
+        "translate": "advancements.backpacks.root.desc"
+      },
+      "background": "minecraft:textures/block/oak_planks.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

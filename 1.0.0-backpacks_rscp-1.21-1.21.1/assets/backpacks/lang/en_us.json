@@ -1,0 +1,34 @@
+{
+    "menu.backpacks.interaction.go_back": "Go Back",
+    "menu.backpacks.interaction.next_page": "Next Page",
+
+    "item.backpacks.normal.1": "Small Backpack",
+    "item.backpacks.normal.2": "Normal Backpack",
+    "item.backpacks.normal.3": "Big Backpack",
+    "item.backpacks.normal.4": "Enormous Backpack",
+    "item.backpacks.ender": "Ender Backpack",
+
+    "load.backpacks.message.1": "Don't forget to follow us!",
+    "load.backpacks.message.2": "Reloading...",
+    "load.backpacks.message.3": "Datapack reloaded succesfully!",
+    "load.backpacks.message.4": "By ",
+
+    "advancements.backpacks.root": "Backpacks!",
+    "advancements.backpacks.root.desc": "Thank you for using this datapack!",
+    "advancements.backpacks.adventurer": "True Advendurer",
+    "advancements.backpacks.adventurer.desc": "Craft any Backpack",
+    "advancements.backpacks.color": "World of Color",
+    "advancements.backpacks.color.desc": "Dye any Backpack",
+    "advancements.backpacks.nes": "NotEnoughSlots",
+    "advancements.backpacks.nes.desc": "Upgrade any Backpack",
+    "advancements.backpacks.ender": "Ender Chest+",
+    "advancements.backpacks.ender.desc": "Craft an Ender Backpack",
+    "advancements.backpacks.max": "So... What now?",
+    "advancements.backpacks.max.desc": "Upgrade a Backpack to its last tier",
+    "advancements.backpacks.style": "B*tch, I'm stylish",
+    "advancements.backpacks.style.desc": "Add any style to any Backpack",
+
+    "uninstall.backpacks.1": "Are you sure you want to uninstall the datapack? ",
+    "uninstall.backpacks.2": "[YES]",
+    "uninstall.backpacks.3": "Datapack uninstalled successfully, thanks for using it!"
+}

@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "looking_at": {
+        "nbt": "{Tags:[backpacks.backpack_menu_looking]}"
+      }
+    }
+  }
+}

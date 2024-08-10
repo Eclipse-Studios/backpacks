@@ -1,0 +1,2 @@
+$data modify storage senti:id root.uuid set from storage senti:id root.containers[{id:$(target)}].uuid
+$data modify storage senti:api uuid set from storage senti:id root.containers[{id:$(target)}].uuid

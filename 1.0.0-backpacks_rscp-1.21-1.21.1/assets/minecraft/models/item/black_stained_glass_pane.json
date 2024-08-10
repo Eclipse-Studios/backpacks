@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/black_stained_glass"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 9951631
+      },
+      "model": "backpacks:item/gui/empty"
+    }
+  ]
+}

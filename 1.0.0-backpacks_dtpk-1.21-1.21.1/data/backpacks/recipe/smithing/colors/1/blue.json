@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": [],
+    "base": {
+      "item": "minecraft:command_block"
+    },
+    "addition": {
+      "item": "minecraft:blue_dye"
+    },
+    "result": {
+      "id": "minecraft:command_block",
+      "components": {
+        "minecraft:custom_model_data": 9951632
+      }
+    }
+  }
+  

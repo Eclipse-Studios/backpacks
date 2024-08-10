@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": [],
+    "base": {
+      "item": "minecraft:structure_block"
+    },
+    "addition": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "result": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:custom_model_data": 9951638
+      }
+    }
+  }
+  

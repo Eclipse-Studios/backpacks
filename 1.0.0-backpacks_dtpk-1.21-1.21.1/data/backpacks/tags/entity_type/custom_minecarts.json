@@ -1,0 +1,8 @@
+{
+    "values": [
+      "minecraft:spawner_minecart",
+      "minecraft:command_block_minecart"
+    ],
+    "replace": false
+  }
+  

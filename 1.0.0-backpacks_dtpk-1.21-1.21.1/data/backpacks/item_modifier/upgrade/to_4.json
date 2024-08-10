@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_custom_data",
+      "tag": "{backpacks:{tier:2,contents:{slots:40}}}"
+    }
+  ]
+  

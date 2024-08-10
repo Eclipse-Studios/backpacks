@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:jigsaw",
+        "components": {
+          "minecraft:custom_model_data": 9951631
+        }
+      },
+      "title": {
+        "translate": "advancements.backpacks.ender"
+      },
+      "description": {
+        "translate": "advancements.backpacks.ender.desc"
+      }
+    },
+    "parent": "backpacks:tree/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:crafting_table/ender"
+        }
+      }
+    }
+  }
+  

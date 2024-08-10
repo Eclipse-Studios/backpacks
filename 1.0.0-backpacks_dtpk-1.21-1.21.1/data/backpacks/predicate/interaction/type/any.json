@@ -1,0 +1,58 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "predicates": {
+                "minecraft:custom_data": "{menu_backpack:{go_back:1b}}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": "{menu_backpack:{go_back:1b}}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "player.cursor": {
+              "predicates": {
+                "minecraft:custom_data": "{menu_backpack:{next_page:1b}}"
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "slots": {
+            "container.*": {
+              "predicates": {
+                "minecraft:custom_data": "{menu_backpack:{next_page:1b}}"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

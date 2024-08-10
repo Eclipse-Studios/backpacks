@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+      "item": "minecraft:chest"
+    },
+    "base": {
+      "item": "minecraft:chain_command_block"
+    },
+    "addition": {
+      "item": "minecraft:diamond"
+    },
+    "result": {
+      "id": "minecraft:repeating_command_block",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"item.backpacks.normal.3\"}"
+      }
+    }
+  }
+  

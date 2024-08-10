@@ -1,0 +1,34 @@
+{
+    "menu.backpacks.interaction.go_back": "Volver",
+    "menu.backpacks.interaction.next_page": "Siguiente",
+
+    "item.backpacks.normal.1": "Mochila Pequeña",
+    "item.backpacks.normal.2": "Mochila Normal",
+    "item.backpacks.normal.3": "Mochila Grande",
+    "item.backpacks.normal.4": "Mochila Enorme",
+    "item.backpacks.ender": "Mochila del End",
+
+    "load.backpacks.message.1": "¡No te olvides de seguirnos!",
+    "load.backpacks.message.2": "Reiniciando...",
+    "load.backpacks.message.3": "¡Datapack reiniciado satisfactoriamente!",
+    "load.backpacks.message.4": "Por ",
+
+    "advancements.backpacks.root": "¡Mochilas!",
+    "advancements.backpacks.root.desc": "¡Gracias por usar el datapack!",
+    "advancements.backpacks.adventurer": "Un Verdadero Aventurero",
+    "advancements.backpacks.adventurer.desc": "Fabrica cualquier Mochila",
+    "advancements.backpacks.color": "Mundo de Color",
+    "advancements.backpacks.color.desc": "Tiñe cualquier Mochila",
+    "advancements.backpacks.nes": "SinSuficientesRanuras",
+    "advancements.backpacks.nes.desc": "Mejora cualquier Mochila",
+    "advancements.backpacks.ender": "Cofre del End+",
+    "advancements.backpacks.ender.desc": "Fabrica una Mochila del End",
+    "advancements.backpacks.max": "Y... ¿Ahora qué?",
+    "advancements.backpacks.max.desc": "Mejora una mochila al máximo",
+    "advancements.backpacks.style": "Con Estilo",
+    "advancements.backpacks.style.desc": "Aplica cualquier estilo a una Mochila",
+
+    "uninstall.backpacks.1": "¿Estás seguro de que quieres desinstalar el datapack? ",
+    "uninstall.backpacks.2": "[SÍ]",
+    "uninstall.backpacks.3": "Datapack desinstalado satisfactoriamente, ¡gracias por usarlo!"
+}

@@ -1,0 +1,501 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:purple_dye"
+      },
+      "title": {
+        "translate": "advancements.backpacks.color"
+      },
+      "description": {
+        "translate": "advancements.backpacks.color.desc"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "backpacks:tree/adventurer",
+    "criteria": {
+      "backpacks:colors_1_black": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/black"
+        }
+      },
+      "backpacks:colors_1_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/blue"
+        }
+      },
+      "backpacks:colors_1_brown": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/brown"
+        }
+      },
+      "backpacks:colors_1_cyan": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/cyan"
+        }
+      },
+      "backpacks:colors_1_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/gray"
+        }
+      },
+      "backpacks:colors_1_green": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/green"
+        }
+      },
+      "backpacks:colors_1_light_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/light_blue"
+        }
+      },
+      "backpacks:colors_1_light_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/light_gray"
+        }
+      },
+      "backpacks:colors_1_lime": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/lime"
+        }
+      },
+      "backpacks:colors_1_magenta": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/magenta"
+        }
+      },
+      "backpacks:colors_1_orange": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/orange"
+        }
+      },
+      "backpacks:colors_1_pink": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/pink"
+        }
+      },
+      "backpacks:colors_1_purple": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/purple"
+        }
+      },
+      "backpacks:colors_1_red": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/red"
+        }
+      },
+      "backpacks:colors_1_white": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/white"
+        }
+      },
+      "backpacks:colors_1_yellow": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/yellow"
+        }
+      },
+      "backpacks:colors_1_nether": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/1/nether"
+        }
+      },
+      "backpacks:colors_2_black": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/black"
+        }
+      },
+      "backpacks:colors_2_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/blue"
+        }
+      },
+      "backpacks:colors_2_brown": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/brown"
+        }
+      },
+      "backpacks:colors_2_cyan": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/cyan"
+        }
+      },
+      "backpacks:colors_2_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/gray"
+        }
+      },
+      "backpacks:colors_2_green": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/green"
+        }
+      },
+      "backpacks:colors_2_light_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/light_blue"
+        }
+      },
+      "backpacks:colors_2_light_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/light_gray"
+        }
+      },
+      "backpacks:colors_2_lime": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/lime"
+        }
+      },
+      "backpacks:colors_2_magenta": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/magenta"
+        }
+      },
+      "backpacks:colors_2_orange": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/orange"
+        }
+      },
+      "backpacks:colors_2_pink": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/pink"
+        }
+      },
+      "backpacks:colors_2_purple": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/purple"
+        }
+      },
+      "backpacks:colors_2_red": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/red"
+        }
+      },
+      "backpacks:colors_2_white": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/white"
+        }
+      },
+      "backpacks:colors_2_yellow": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/yellow"
+        }
+      },
+      "backpacks:colors_2_nether": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/2/nether"
+        }
+      },
+      "backpacks:colors_3_black": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/black"
+        }
+      },
+      "backpacks:colors_3_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/blue"
+        }
+      },
+      "backpacks:colors_3_brown": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/brown"
+        }
+      },
+      "backpacks:colors_3_cyan": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/cyan"
+        }
+      },
+      "backpacks:colors_3_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/gray"
+        }
+      },
+      "backpacks:colors_3_green": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/green"
+        }
+      },
+      "backpacks:colors_3_light_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/light_blue"
+        }
+      },
+      "backpacks:colors_3_light_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/light_gray"
+        }
+      },
+      "backpacks:colors_3_lime": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/lime"
+        }
+      },
+      "backpacks:colors_3_magenta": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/magenta"
+        }
+      },
+      "backpacks:colors_3_orange": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/orange"
+        }
+      },
+      "backpacks:colors_3_pink": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/pink"
+        }
+      },
+      "backpacks:colors_3_purple": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/purple"
+        }
+      },
+      "backpacks:colors_3_red": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/red"
+        }
+      },
+      "backpacks:colors_3_white": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/white"
+        }
+      },
+      "backpacks:colors_3_yellow": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/yellow"
+        }
+      },
+      "backpacks:colors_3_nether": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/3/nether"
+        }
+      },
+      "backpacks:colors_4_black": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/black"
+        }
+      },
+      "backpacks:colors_4_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/blue"
+        }
+      },
+      "backpacks:colors_4_brown": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/brown"
+        }
+      },
+      "backpacks:colors_4_cyan": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/cyan"
+        }
+      },
+      "backpacks:colors_4_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/gray"
+        }
+      },
+      "backpacks:colors_4_green": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/green"
+        }
+      },
+      "backpacks:colors_4_light_blue": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/light_blue"
+        }
+      },
+      "backpacks:colors_4_light_gray": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/light_gray"
+        }
+      },
+      "backpacks:colors_4_lime": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/lime"
+        }
+      },
+      "backpacks:colors_4_magenta": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/magenta"
+        }
+      },
+      "backpacks:colors_4_orange": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/orange"
+        }
+      },
+      "backpacks:colors_4_pink": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/pink"
+        }
+      },
+      "backpacks:colors_4_purple": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/purple"
+        }
+      },
+      "backpacks:colors_4_red": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/red"
+        }
+      },
+      "backpacks:colors_4_white": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/white"
+        }
+      },
+      "backpacks:colors_4_yellow": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/yellow"
+        }
+      },
+      "backpacks:colors_4_nether": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "recipe_id": "backpacks:smithing/colors/4/nether"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "backpacks:colors_1_black",
+        "backpacks:colors_1_blue",
+        "backpacks:colors_1_brown",
+        "backpacks:colors_1_cyan",
+        "backpacks:colors_1_gray",
+        "backpacks:colors_1_green",
+        "backpacks:colors_1_light_blue",
+        "backpacks:colors_1_light_gray",
+        "backpacks:colors_1_lime",
+        "backpacks:colors_1_magenta",
+        "backpacks:colors_1_orange",
+        "backpacks:colors_1_pink",
+        "backpacks:colors_1_purple",
+        "backpacks:colors_1_red",
+        "backpacks:colors_1_white",
+        "backpacks:colors_1_yellow",
+        "backpacks:colors_1_nether",
+        "backpacks:colors_2_black",
+        "backpacks:colors_2_blue",
+        "backpacks:colors_2_brown",
+        "backpacks:colors_2_cyan",
+        "backpacks:colors_2_gray",
+        "backpacks:colors_2_green",
+        "backpacks:colors_2_light_blue",
+        "backpacks:colors_2_light_gray",
+        "backpacks:colors_2_lime",
+        "backpacks:colors_2_magenta",
+        "backpacks:colors_2_orange",
+        "backpacks:colors_2_pink",
+        "backpacks:colors_2_purple",
+        "backpacks:colors_2_red",
+        "backpacks:colors_2_white",
+        "backpacks:colors_2_yellow",
+        "backpacks:colors_2_nether",
+        "backpacks:colors_3_black",
+        "backpacks:colors_3_blue",
+        "backpacks:colors_3_brown",
+        "backpacks:colors_3_cyan",
+        "backpacks:colors_3_gray",
+        "backpacks:colors_3_green",
+        "backpacks:colors_3_light_blue",
+        "backpacks:colors_3_light_gray",
+        "backpacks:colors_3_lime",
+        "backpacks:colors_3_magenta",
+        "backpacks:colors_3_orange",
+        "backpacks:colors_3_pink",
+        "backpacks:colors_3_purple",
+        "backpacks:colors_3_red",
+        "backpacks:colors_3_white",
+        "backpacks:colors_3_yellow",
+        "backpacks:colors_3_nether",
+        "backpacks:colors_4_black",
+        "backpacks:colors_4_blue",
+        "backpacks:colors_4_brown",
+        "backpacks:colors_4_cyan",
+        "backpacks:colors_4_gray",
+        "backpacks:colors_4_green",
+        "backpacks:colors_4_light_blue",
+        "backpacks:colors_4_light_gray",
+        "backpacks:colors_4_lime",
+        "backpacks:colors_4_magenta",
+        "backpacks:colors_4_orange",
+        "backpacks:colors_4_pink",
+        "backpacks:colors_4_purple",
+        "backpacks:colors_4_red",
+        "backpacks:colors_4_white",
+        "backpacks:colors_4_yellow",
+        "backpacks:colors_4_nether"
+      ]
+    ]
+  }
+  

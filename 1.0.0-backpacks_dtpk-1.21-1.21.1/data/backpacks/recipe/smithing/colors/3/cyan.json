@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": [],
+    "base": {
+      "item": "minecraft:repeating_command_block"
+    },
+    "addition": {
+      "item": "minecraft:cyan_dye"
+    },
+    "result": {
+      "id": "minecraft:repeating_command_block",
+      "components": {
+        "minecraft:custom_model_data": 9951634
+      }
+    }
+  }
+  

@@ -1,0 +1,2 @@
+execute store result storage senti:id root.target int 1 store result score #temp senti.id store result score #temp1 senti.id store result score @s senti.id run data get storage senti:id root.id[-1]
+data remove storage senti:id root.id[-1]

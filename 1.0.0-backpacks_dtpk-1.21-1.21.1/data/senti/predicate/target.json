@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "senti.id": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": ".target"
+          },
+          "score": "senti.id"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": ".target"
+          },
+          "score": "senti.id"
+        }
+      }
+    }
+  }
+  
