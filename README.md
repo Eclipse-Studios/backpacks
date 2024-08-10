@@ -6,7 +6,7 @@
 **Backpacks!** is a datapack that adds vanilla-friendly backpacks to your game! You can upgrade them and dye them!
 
 ## 🎥 Video
-(Insert video here)
+(We are currently working on the video!)
 
 ## 🔗 Links
 [![youtube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EclipseStudiosMC)
