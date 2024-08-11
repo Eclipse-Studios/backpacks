@@ -1,6 +1,3 @@
-> [!NOTE]  
-> If you want to see the repository we use for development you can find it [here](https://github.com/ElGeroIngles/backpacks).
-
 # 🎒 Backpacks!
 
 **Backpacks!** is a datapack that adds vanilla-friendly backpacks to your game! You can upgrade them and dye them!
@@ -27,7 +24,7 @@
 - 4 Tiers of Backpacks
 - Ender Backpacks
 - Backpack customization
-- Command to create a custom backpack.
+- Command to create a custom backpack
 
   </p>
 </details>
@@ -41,6 +38,10 @@
 #### Q: Sometimes the items in the backpack flick!
 
 A: Item flickering is caused by a library that we are using, [Sentinel](https://github.com/DefinitelyHighmore/sentinel), which is currently essential for this datapack to work as it allows as to detect when we close a container, how hard items flickers depends on the person, for me it wasn't very much, but for some beta testers was a lot but it is a visual glitch and it doesn't affect gameplay. 
+
+#### Q: Why the items don't have their texture? And why do I have a chest minecart in the head when I'm holding a Backpack?
+
+A: Remember to also download the resourcepack to make it appear that it is not broken, go to "[Versions](https://modrinth.com/datapack/vanilla-backpacks/versions)" > Click on the version you are using > Download the resourcepack.
 
 #### Q: Does this datapack work on older/newer versions?
 
@@ -67,7 +68,7 @@ A: Yes it is. This datapack follows the [Smithed](https://wiki.smithed.dev/conve
   </summary>
   <p>
     
-You can craft the Small Backpack (3 total slots) and the Ender Backpack in the crafting table like this:
+You can craft the Small Backpack (3 total slots) and the Ender Backpack (which is linked to your Ender Chest) in the crafting table like this:
 
 ![https://i.imgur.com/mNtkJNV.png](https://i.imgur.com/mNtkJNV.png)
 
