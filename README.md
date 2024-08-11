@@ -1,3 +1,6 @@
+> [!NOTE]  
+> If you want to see the repository we use for development you can find it [here](https://github.com/ElGeroIngles/backpacks).
+
 # 🎒 Backpacks!
 
 **Backpacks!** is a datapack that adds vanilla-friendly backpacks to your game! You can upgrade them and dye them!
