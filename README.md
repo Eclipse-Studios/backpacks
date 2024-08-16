@@ -177,7 +177,7 @@ Here's the full list of custom model datas and their item ids if you want to use
 
 <details>
   <summary>
-    🗑️ Unistall
+    🗑️ Uninstall
   </summary>
   <p>
     
