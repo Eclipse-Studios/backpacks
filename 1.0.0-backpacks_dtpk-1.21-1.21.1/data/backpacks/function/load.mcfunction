@@ -12,7 +12,7 @@ execute unless score $global backpacks.id matches 1.. run scoreboard players set
 
 # Teams:
 team add backpacks.no_collision
-team modify backpacks.no_collision collisionRule never
+team modify backpacks.no_collision collisionRule pushOwnTeam
 
 # Tags:
 tag @e remove backpacks.not_this_minecart
