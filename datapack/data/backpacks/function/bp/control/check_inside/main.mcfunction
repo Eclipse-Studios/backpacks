@@ -5,4 +5,4 @@
 execute store result storage backpacks:temp inside.id int 1 run scoreboard players get @s backpacks.id
 
 # Check if inside:
-return run function backpacks:bp/control/check_inside/check with storage backpacks:temp inside
+function backpacks:bp/control/check_inside/check with storage backpacks:temp inside

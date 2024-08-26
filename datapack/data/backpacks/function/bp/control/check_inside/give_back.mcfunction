@@ -13,14 +13,11 @@ $item replace entity @p[advancements={backpacks:not_holding_bp=true},tag=backpac
 
 # Restore item:
 $item replace entity @s container.$(Slot) from entity @n[tag=backpacks.save_holding_give_back] container.0
-tellraw @a {"nbt":"SelectedItem","entity":"@s","color":"aqua"}
+# tellraw @a {"nbt":"SelectedItem","entity":"@p[advancements={backpacks:not_holding_bp=true}]","color":"aqua"}
+
 # Kill temp container:
 tp @n[tag=backpacks.save_holding_give_back] ~ -10000 ~
 kill @n[tag=backpacks.save_holding_give_back]
 
 # Cancel kill:
 function backpacks:bp/control/check_inside/cancel
-
-# Return:
-# say fail
-return fail

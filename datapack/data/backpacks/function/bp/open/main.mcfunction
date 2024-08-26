@@ -10,6 +10,9 @@ execute as @e[tag=backpacks.backpack_menu_ready] if score @s backpacks.id = @p[a
 # If opener is not owner:
 execute if function backpacks:bp/open/not_owner run return fail
 
+# Check if menu has the correct amount of slots locked:
+execute as @n[tag=backpacks.backpack_menu_opened] run function backpacks:bp/open/slots/main
+
 # Save:
 execute as @n[tag=backpacks.backpack_menu_opened] run function backpacks:bp/container/save/main
 

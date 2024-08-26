@@ -2,6 +2,7 @@
 
 # Get menu:
 execute as @e[tag=backpacks.backpack_menu_ready] if score @s backpacks.id = @p[advancements={backpacks:holding_bp=true}] backpacks.id run tag @s add backpacks.this_backpack_menu
+execute as @e[tag=backpacks.backpack_tp_ready] if score @s backpacks.id = @p[advancements={backpacks:holding_bp=true}] backpacks.id run tag @s add backpacks.this_backpack_tp
 
 # Control:
 function backpacks:bp/check/offhand

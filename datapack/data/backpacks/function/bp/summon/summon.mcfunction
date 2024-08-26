@@ -1,7 +1,7 @@
 # @s & @p[advancements={backpacks:summon_bp=true}] is the player at @s!
 
 # Summon:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:'{"italic":false,"text":"Backpack"}'}
+summon item_display ~ ~ ~ {view_range:0f,width:0f,height:0f,teleport_duration:0,Tags:["backpacks.backpack_menu_tp"],Passengers:[{id:"minecraft:chest_minecart",NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:'{"italic":false,"text":"Backpack"}'}]}
 
 # If init:
 execute unless predicate backpacks:bp_init run function backpacks:bp/summon/init
@@ -35,4 +35,5 @@ scoreboard players set @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_me
 # Tags:
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] run function senti:start
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] run team join backpacks.no_collision
+tag @n[tag=backpacks.backpack_menu_tp,tag=!backpacks.backpack_tp_ready] add backpacks.backpack_tp_ready
 tag @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] add backpacks.backpack_menu_ready
