@@ -21,7 +21,8 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:repeating_command_block",compon
 execute as @e[type=item,nbt={Item:{id:"minecraft:structure_block",components:{"minecraft:custom_data":{backpacks:{real_backpack:1b,tier:2}}}}}] run function backpacks:bp/upgrade/to_4/item
 
 # On join:
-execute as @a[scores={backpacks.join=1..}] at @s run function backpacks:bp/join/main
+scoreboard players add @a[scores={backpacks.join=1..}] backpacks.join 1
+execute as @a[scores={backpacks.join=5..}] at @s run function backpacks:bp/join/main
 
 # Teams:
 team join backpacks.no_collision @a

@@ -16,7 +16,6 @@ tag @a remove backpacks.offhand
 execute as @e[tag=backpacks.backpack_menu_ready] at @s run tp ~ -10000 ~
 execute as @e[tag=backpacks.backpack_menu_ready] run kill @s
 execute as @e[tag=backpacks.interaction_ready] run kill @s
-execute as @e[tag=backpacks.backpack_tp_ready] run kill @s
 
 clear @a *[custom_data~{backpacks:{}}]
 clear @a *[custom_data~{menu_backpack:{}}]

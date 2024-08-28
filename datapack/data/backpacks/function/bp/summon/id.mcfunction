@@ -11,5 +11,4 @@ execute if predicate backpacks:bp/mainhand store result storage backpacks:temp i
 
 # Set Id:
 execute store result score @s backpacks.id run data get storage backpacks:temp id
-execute store result score @n[tag=backpacks.backpack_menu_tp,tag=!backpacks.backpack_tp_ready] backpacks.id run data get storage backpacks:temp id
 execute store result score @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] backpacks.id run data get storage backpacks:temp id
