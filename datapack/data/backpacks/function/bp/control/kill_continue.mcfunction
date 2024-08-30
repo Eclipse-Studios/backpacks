@@ -8,6 +8,7 @@ execute as @n[tag=backpacks.backpack_kill_this] run function backpacks:bp/contai
 execute as @n[tag=backpacks.backpack_kill_this] at @s run function backpacks:bp/control/kill_menu
 
 # Reset:
+team leave @s
 tag @s remove backpacks.offhand
 tag @s remove backpacks.mainhand
 tag @s remove backpacks.backpack_menu_summoned

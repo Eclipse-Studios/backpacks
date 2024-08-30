@@ -24,8 +24,5 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:structure_block",components:{"m
 scoreboard players add @a[scores={backpacks.join=1..}] backpacks.join 1
 execute as @a[scores={backpacks.join=5..}] at @s run function backpacks:bp/join/main
 
-# Teams:
-team join backpacks.no_collision @a
-
 # Check if menu has it's owner online:
 execute as @e[tag=backpacks.backpack_menu_ready] at @s run function backpacks:bp/control/check_if_online

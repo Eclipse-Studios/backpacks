@@ -1,5 +1,5 @@
 # @s is the player!
-say main
+# say main
 # Reset:
 advancement grant @s only backpacks:not_holding_bp
 function backpacks:bp/control/kill

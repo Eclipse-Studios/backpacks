@@ -36,3 +36,6 @@ scoreboard players set @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_me
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] run function senti:start
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] run team join backpacks.no_collision
 tag @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] add backpacks.backpack_menu_ready
+
+# Team:
+team join backpacks.no_collision
