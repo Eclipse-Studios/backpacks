@@ -1,0 +1,34 @@
+{
+  "menu.backpacks.interaction.go_back": "Voltar",
+  "menu.backpacks.interaction.next_page": "Próxima Página",
+
+  "item.backpacks.normal.1": "Mochila Pequena",
+  "item.backpacks.normal.2": "Mochila Normal",
+  "item.backpacks.normal.3": "Mochila Grande",
+  "item.backpacks.normal.4": "Mochila Enorme",
+  "item.backpacks.ender": "Mochila do Ender",
+
+  "load.backpacks.message.1": "Não se esqueça de nos seguir!",
+  "load.backpacks.message.2": "Recarregando...",
+  "load.backpacks.message.3": "Datapack recarregado com sucesso!",
+  "load.backpacks.message.4": "Por ",
+
+  "advancements.backpacks.root": "Mochilas!",
+  "advancements.backpacks.root.desc": "Obrigado por usar este datapack!",
+  "advancements.backpacks.adventurer": "Aventureiro",
+  "advancements.backpacks.adventurer.desc": "Criar qualquer Mochila",
+  "advancements.backpacks.color": "Mundo da Cor",
+  "advancements.backpacks.color.desc": "Pintar qualquer Mochila",
+  "advancements.backpacks.nes": "Sem espaço",
+  "advancements.backpacks.nes.desc": "Atualizar qualquer Mochila",
+  "advancements.backpacks.ender": "Ender Chest+",
+  "advancements.backpacks.ender.desc": "Criar qualquer Mochila do Ender",
+  "advancements.backpacks.max": "Então... O que agora?",
+  "advancements.backpacks.max.desc": "Atualizar uma Mochila para o último nível",
+  "advancements.backpacks.style": "V*dia, eu sou estiloso",
+  "advancements.backpacks.style.desc": "Adicionar qualquer estilo a qualquer Mochila",
+
+  "uninstall.backpacks.1": "Você tem certeza de que deseja desinstalar o datapack?  ",
+  "uninstall.backpacks.2": "[SIM]",
+  "uninstall.backpacks.3": "Datapack desinstalado com sucesso, obrigado por usar ele!"
+}
