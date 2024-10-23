@@ -20,6 +20,30 @@
 
 <details>
   <summary>
+    ⚠️ Important
+  </summary>
+  <p>
+    
+This section is for important stuff you should know about the datapack before use it:
+
+### This is a Datapack:
+This is important to know because a lot of people end up asking me about stuff that datapacks can't currently handle, like for example REI/JEI support or show the new items in the creative inventory. That's why maybe a feature that is very common in mods isn't really aviable in datapacks or maybe datapacks need workarounds for certain things that may look weird at first glance but once you know why that is like that you understand that it is due to datapack limitations.
+
+### This Datapack DOESN'T support Creative mode:
+This means that people in creative mode "can't" use the datapack without "breaking it". What I mean by this is that using the backpacks in creative mode isn't supported due to technical stuff like weird desync behaviour between the server and the client and being able to "place" the backpacks, this last one means that the backpacks are just other items but retextured using a resourcepack, and that items are the following blocks: All 3 types of command blocks, jigsaw block and the structure block (and maybe more in the future). These blocks have been choosed specifically because you can't obtain them in survival and you can't place them unless you are on creative. That's why creative mode isn't really supported.
+
+### Incompatibility with other mods/datapacks/server modifications/etc:
+This datapack isn't compatible with the Essential's mod and it is very possible that it may don't work properly on servers that run on Paper. The reason to why this happens is that these two things modify some vanilla commands which breaks a lot of things with this datapack, but this doesn't only affects my datapack, this affects a very big portion of datapacks. I don't mean that they are bad mods or bad server modifications, they are very good projects, it is just that they make this changes which affects a lot of datapacks which is a bit sad tbh. (Also, there may be more mods/datapacks/server modifications which are incompatible with mine so have an eye on that).
+
+### Requires a Resourcepack:
+This datapack requires a resourcepack for the textures to appear, if you are using the mod version this doesn't affect you. The resourcepack can be found in the "[Versions](https://modrinth.com/datapack/vanilla-backpacks/versions)" tab > Click on the datapack version you are using (not on the download button) > You should be inside that version > Download the required resourcepack.
+
+
+  </p>
+</details>
+
+<details>
+  <summary>
     ✨ Features
   </summary>
   <p>
