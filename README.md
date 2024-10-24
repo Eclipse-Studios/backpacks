@@ -24,7 +24,7 @@
   </summary>
   <p>
     
-This section is for important stuff you should know about the datapack before use it:
+This section is for important stuff you should know about the datapack before using it:
 
 ### This is a Datapack:
 This is important to know because a lot of people end up asking me about stuff that datapacks can't currently handle, like for example REI/JEI support or show the new items in the creative inventory. That's why maybe a feature that is very common in mods isn't really aviable in datapacks or maybe datapacks need workarounds for certain things that may look weird at first glance but once you know why that is like that you understand that it is due to datapack limitations.
