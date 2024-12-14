@@ -216,7 +216,7 @@ That would give you a stick with 100 total slots and a custom model data of 0.
 
 Here's the full list of custom model datas and their item ids if you want to use one of the backpacks model:
 
-![https://i.imgur.com/yiJLWxf.png](https://i.imgur.com/yiJLWxf.png)
+![https://i.imgur.com/E1VHIQq.png](https://i.imgur.com/E1VHIQq.png)
 
   </p>
 </details>
