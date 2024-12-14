@@ -122,7 +122,7 @@ Additionally, you can dye any Backpack with any vanilla dye! (Ender Backpacks ca
 
 You can have different styles applied to your backpack:
 
-![https://i.imgur.com/heqzBSc.png](https://i.imgur.com/heqzBSc.png)
+![https://i.imgur.com/zuRjvLx.png](https://i.imgur.com/zuRjvLx.png)
 
 (New styles will be aviable in the future!)
 
