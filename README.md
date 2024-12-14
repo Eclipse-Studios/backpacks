@@ -145,13 +145,13 @@ Here are all the settings the datapack currently has:
   <p>
 This setting can be customized by modifying the predicate located at `data/backpacks/predicate/settings/blacklisted_items/list.json`, but `non-empty Shulker Boxes` are sadly hard coded so to remove it simply go to the file `data/backpacks/function/cmd/settings/blacklisted_items/check/main.mcfunction` and change the following line:
    
-```haskell
+```mcfunction
 execute unless predicate backpacks:settings/blacklisted_items/list unless items entity @s container.* #shulker_boxes[!minecraft:container=[]] run return fail
 ```
 
 with this one:
 
-```haskell
+```mcfunction
 execute unless predicate backpacks:settings/blacklisted_items/list run return fail
 ```
   </p>
