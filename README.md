@@ -136,7 +136,7 @@ You can have different styles applied to your backpack:
   <p>
 
 Here are all the settings the datapack currently has:
-- Blaclisted Items (defaults to true): Makes so a list of items can't enter backpacks, the list is composed of `Backpacks` and `non-empty Shulker Boxes` by default. 
+- Blacklisted Items (defaults to true): Makes so a list of items can't enter backpacks, the list is composed of `Backpacks` and `non-empty Shulker Boxes` by default. 
 
 <details>
   <summary>
@@ -229,6 +229,8 @@ Here's the full list of custom model datas and their item ids if you want to use
     
 - [Highmore](https://github.com/DefinitelyHighmore)'s library [Sentinel](https://github.com/DefinitelyHighmore/sentinel) for detecting closing containers (may cause visual flickering of items inside backpacks).
 - [Mitsaori](https://www.instagram.com/mitsaori/)'s backpacks models.
+- [Evtema3](https://github.com/Evtema3)'s [shader](https://discord.com/channels/154777837382008833/157097006500806656/1181814993537220658) to hide the menu's nametag in third person. 
+- [AmberWat](https://github.com/AmberWat)'s [Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont) used for hiding the nametags in [Evtema3](https://github.com/Evtema3)'s shader.
 
   </p>
 </details>
