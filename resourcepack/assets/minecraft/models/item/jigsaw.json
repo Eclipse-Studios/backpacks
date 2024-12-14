@@ -6,6 +6,12 @@
           "custom_model_data": 9951631
         },
         "model": "backpacks:item/backpacks/ender/ender_backpack"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951632
+        },
+        "model": "backpacks:item/backpacks/ender/end_backpack"
       }
     ]
   }

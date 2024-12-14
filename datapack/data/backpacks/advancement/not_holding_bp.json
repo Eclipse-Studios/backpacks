@@ -8,6 +8,16 @@
             "condition": "minecraft:all_of",
             "terms": [
               {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[backpacks.give_back_timer]}"
+                  }
+                }
+              },
+              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {

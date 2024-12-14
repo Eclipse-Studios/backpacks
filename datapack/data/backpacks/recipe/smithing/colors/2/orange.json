@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": [],
-    "base": {
-      "item": "minecraft:chain_command_block"
-    },
-    "addition": {
-      "item": "minecraft:orange_dye"
-    },
-    "result": {
-      "id": "minecraft:chain_command_block",
-      "components": {
-        "minecraft:custom_model_data": 9951641
-      }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:chain_command_block",
+  "addition": "minecraft:orange_dye",
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951641
     }
   }
+}
   

@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": [],
-    "base": {
-      "item": "minecraft:repeating_command_block"
-    },
-    "addition": {
-      "item": "minecraft:magenta_dye"
-    },
-    "result": {
-      "id": "minecraft:repeating_command_block",
-      "components": {
-        "minecraft:custom_model_data": 9951640
-      }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:repeating_command_block",
+  "addition": "minecraft:magenta_dye",
+  "result": {
+    "id": "minecraft:repeating_command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951640
     }
   }
+}
   

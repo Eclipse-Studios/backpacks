@@ -1,27 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "xxx",
-      "xzx",
-      "xxx"
-    ],
-    "key": {
-      "x": {
-        "item": "minecraft:leather"
-      },
-      "z": {
-        "item": "minecraft:chest"
-      }
-    },
-    "result": {
-      "id": "minecraft:command_block",
-      "components": {
-        "minecraft:custom_model_data": 9951633,
-        "minecraft:item_name": "{\"translate\":\"item.backpacks.normal.1\"}",
-        "minecraft:max_stack_size": 1,
-        "minecraft:custom_data": "{backpacks:{real_backpack:1b,tier:0,contents:{slots:3}}}",
-        "minecraft:rarity": "uncommon"
-      }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xzx",
+    "xxx"
+  ],
+  "key": {
+    "x": "minecraft:leather",
+    "z": "minecraft:chest"
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951633,
+      "minecraft:item_name": "{\"translate\":\"item.backpacks.normal.1\"}",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": "{backpacks:{real_backpack:1b,tier:0,contents:{slots:3}}}",
+      "minecraft:rarity": "uncommon"
     }
   }
-  
+}

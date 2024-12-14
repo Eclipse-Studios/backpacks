@@ -12,6 +12,7 @@
     "load.backpacks.message.2": "Reiniciando...",
     "load.backpacks.message.3": "¡Datapack reiniciado satisfactoriamente!",
     "load.backpacks.message.4": "Por ",
+    "load.backpacks.message.5": "¡Haz click para ver los cambios!",
 
     "advancements.backpacks.root": "¡Mochilas!",
     "advancements.backpacks.root.desc": "¡Gracias por usar el datapack!",
@@ -19,7 +20,7 @@
     "advancements.backpacks.adventurer.desc": "Fabrica cualquier Mochila",
     "advancements.backpacks.color": "Mundo de Color",
     "advancements.backpacks.color.desc": "Tiñe cualquier Mochila",
-    "advancements.backpacks.nes": "SinSuficientesRanuras",
+    "advancements.backpacks.nes": "SinSuficienteEspacio",
     "advancements.backpacks.nes.desc": "Mejora cualquier Mochila",
     "advancements.backpacks.ender": "Cofre del End+",
     "advancements.backpacks.ender.desc": "Fabrica una Mochila del End",
@@ -30,5 +31,13 @@
 
     "uninstall.backpacks.1": "¿Estás seguro de que quieres desinstalar el datapack? ",
     "uninstall.backpacks.2": "[SÍ]",
-    "uninstall.backpacks.3": "Datapack desinstalado satisfactoriamente, ¡gracias por usarlo!"
+    "uninstall.backpacks.3": "Datapack desinstalado satisfactoriamente, ¡gracias por usarlo!",
+
+    "settings.backpacks.change_state.1": "El ajuste",
+    "settings.backpacks.change_state.2": "se ha cambiado a",
+    "settings.backpacks.true": "activado",
+    "settings.backpacks.false": "desactivado",
+    "settings.backpacks.defaults_to": "por defecto está",
+    "settings.backpacks.blacklisted_items.info": "Si una lista de objetos pueden entrar en una backpack o no",
+    "settings.backpacks.blacklisted_items.name": "lista negra de objetos"
 }

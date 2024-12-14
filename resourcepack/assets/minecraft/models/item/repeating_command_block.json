@@ -102,6 +102,18 @@
           "custom_model_data": 9951647
         },
         "model": "backpacks:item/backpacks/normal/3/nether"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951648
+        },
+        "model": "backpacks:item/backpacks/normal/3/autumnal"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9951649
+        },
+        "model": "backpacks:item/backpacks/normal/3/christmas"
       }
     ]
   }

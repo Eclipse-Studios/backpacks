@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": "minecraft:jigsaw",
+    "addition": "minecraft:dragon_head",
+    "result": {
+      "id": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 9951632
+      }
+    }
+  }
+    

@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": [],
-    "base": {
-      "item": "minecraft:structure_block"
-    },
-    "addition": {
-      "item": "minecraft:red_dye"
-    },
-    "result": {
-      "id": "minecraft:structure_block",
-      "components": {
-        "minecraft:custom_model_data": 9951644
-      }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:structure_block",
+  "addition": "minecraft:red_dye",
+  "result": {
+    "id": "minecraft:structure_block",
+    "components": {
+      "minecraft:custom_model_data": 9951644
     }
   }
+}
   

@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": [],
-    "base": {
-      "item": "minecraft:command_block"
-    },
-    "addition": {
-      "item": "minecraft:netherite_scrap"
-    },
-    "result": {
-      "id": "minecraft:command_block",
-      "components": {
-        "minecraft:custom_model_data": 9951647
-      }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:command_block",
+  "addition": "minecraft:netherite_scrap",
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951647
     }
   }
+}
   

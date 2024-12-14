@@ -112,12 +112,6 @@
           "recipe_id": "backpacks:smithing/colors/1/yellow"
         }
       },
-      "backpacks:colors_1_nether": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "recipe_id": "backpacks:smithing/colors/1/nether"
-        }
-      },
       "backpacks:colors_2_black": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
@@ -212,12 +206,6 @@
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
           "recipe_id": "backpacks:smithing/colors/2/yellow"
-        }
-      },
-      "backpacks:colors_2_nether": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "recipe_id": "backpacks:smithing/colors/2/nether"
         }
       },
       "backpacks:colors_3_black": {
@@ -316,12 +304,6 @@
           "recipe_id": "backpacks:smithing/colors/3/yellow"
         }
       },
-      "backpacks:colors_3_nether": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "recipe_id": "backpacks:smithing/colors/3/nether"
-        }
-      },
       "backpacks:colors_4_black": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
@@ -417,12 +399,6 @@
         "conditions": {
           "recipe_id": "backpacks:smithing/colors/4/yellow"
         }
-      },
-      "backpacks:colors_4_nether": {
-        "trigger": "minecraft:recipe_crafted",
-        "conditions": {
-          "recipe_id": "backpacks:smithing/colors/4/nether"
-        }
       }
     },
     "requirements": [
@@ -443,7 +419,6 @@
         "backpacks:colors_1_red",
         "backpacks:colors_1_white",
         "backpacks:colors_1_yellow",
-        "backpacks:colors_1_nether",
         "backpacks:colors_2_black",
         "backpacks:colors_2_blue",
         "backpacks:colors_2_brown",
@@ -460,7 +435,6 @@
         "backpacks:colors_2_red",
         "backpacks:colors_2_white",
         "backpacks:colors_2_yellow",
-        "backpacks:colors_2_nether",
         "backpacks:colors_3_black",
         "backpacks:colors_3_blue",
         "backpacks:colors_3_brown",
@@ -477,7 +451,6 @@
         "backpacks:colors_3_red",
         "backpacks:colors_3_white",
         "backpacks:colors_3_yellow",
-        "backpacks:colors_3_nether",
         "backpacks:colors_4_black",
         "backpacks:colors_4_blue",
         "backpacks:colors_4_brown",
@@ -493,8 +466,7 @@
         "backpacks:colors_4_purple",
         "backpacks:colors_4_red",
         "backpacks:colors_4_white",
-        "backpacks:colors_4_yellow",
-        "backpacks:colors_4_nether"
+        "backpacks:colors_4_yellow"
       ]
     ]
   }

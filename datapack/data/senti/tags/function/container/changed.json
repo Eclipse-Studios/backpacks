@@ -1,5 +1,7 @@
 {
     "replace": false,
-    "values": []
+    "values": [
+      "backpacks:cmd/settings/blacklisted_items/check/main"
+    ]
   }
   

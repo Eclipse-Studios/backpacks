@@ -1,6 +1,6 @@
 # @p[advancements={backpacks:summon_bp=true}] is the player at him! | @s is the menu!
 # Fill the menu starting from the end:
-
+# $tellraw @a "$(c_slot)"
 # Check if we need to stop:
 $scoreboard players set $current backpacks.slots $(c_slot)
 

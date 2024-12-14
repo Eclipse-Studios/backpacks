@@ -1,17 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": [],
-    "base": {
-      "item": "minecraft:command_block"
-    },
-    "addition": {
-      "item": "minecraft:purple_dye"
-    },
-    "result": {
-      "id": "minecraft:command_block",
-      "components": {
-        "minecraft:custom_model_data": 9951643
-      }
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:command_block",
+  "addition": "minecraft:purple_dye",
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951643
     }
   }
+}
   

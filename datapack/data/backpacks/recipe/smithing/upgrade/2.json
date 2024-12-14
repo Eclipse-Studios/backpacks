@@ -1,19 +1,12 @@
 {
-    "type": "minecraft:smithing_transform",
-    "template": {
-      "item": "minecraft:chest"
-    },
-    "base": {
-      "item": "minecraft:command_block"
-    },
-    "addition": {
-      "item": "minecraft:iron_ingot"
-    },
-    "result": {
-      "id": "minecraft:chain_command_block",
-      "components": {
-        "minecraft:item_name": "{\"translate\":\"item.backpacks.normal.2\"}"
-      }
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:chest",
+  "base": "minecraft:command_block",
+  "addition": "minecraft:iron_ingot",
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.backpacks.normal.2\"}"
     }
   }
-  
+}

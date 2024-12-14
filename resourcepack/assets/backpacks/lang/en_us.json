@@ -12,6 +12,7 @@
     "load.backpacks.message.2": "Reloading...",
     "load.backpacks.message.3": "Datapack reloaded succesfully!",
     "load.backpacks.message.4": "By ",
+    "load.backpacks.message.5": "Click to see the changelog!",
 
     "advancements.backpacks.root": "Backpacks!",
     "advancements.backpacks.root.desc": "Thank you for using this datapack!",
@@ -30,5 +31,19 @@
 
     "uninstall.backpacks.1": "Are you sure you want to uninstall the datapack? ",
     "uninstall.backpacks.2": "[YES]",
-    "uninstall.backpacks.3": "Datapack uninstalled successfully, thanks for using it!"
+    "uninstall.backpacks.3": "Datapack uninstalled successfully, thanks for using it!",
+
+    "settings.backpacks.change_state": "Setting \"%s\" has been set to %s (defaults to %s)",
+    "settings.backpacks.change_state.1": "Setting",
+    "settings.backpacks.change_state.2": "has been set to",
+    "settings.backpacks.true": "true",
+    "settings.backpacks.false": "false",
+    "settings.backpacks.defaults_to": "defaults to",
+    "settings.backpacks.blacklisted_items.info": "Whether a list of items can or cannot be inside backpacks\nThe list is the following: Backpacks and Non-Empty Shulker Boxes\nInstructions on how to customize it are provided in the datapack's page",
+    "settings.backpacks.blacklisted_items.name": "blacklisted items",
+    "settings.backpacks.settings.list.message_1": "These are all the settings this datapack currently have (more will be added in the future):",
+    "settings.backpacks.settings.list.message_2": "Consider suggesting new settings in our %s!",
+    "settings.backpacks.settings.list.message_3": "discord server",
+    "settings.backpacks.settings.list.currently": "is currently",
+    "settings.backpacks.settings.list.change": "[CHANGE]"
 }

@@ -3,6 +3,9 @@
 # Get menu:
 execute as @e[tag=backpacks.backpack_menu_ready] if score @s backpacks.id = @p[advancements={backpacks:holding_bp=true}] backpacks.id run tag @s add backpacks.this_backpack_menu
 
+# Save last slot which held the backpack for prevention:
+execute if predicate backpacks:other/save_last run function backpacks:bp/control/save_last
+
 # Control:
 function backpacks:bp/check/offhand
 function backpacks:bp/check/mainhand

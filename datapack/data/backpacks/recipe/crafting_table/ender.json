@@ -1,27 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "xxx",
-      "xzx",
-      "xxx"
-    ],
-    "key": {
-      "x": {
-        "item": "minecraft:leather"
-      },
-      "z": {
-        "item": "minecraft:ender_chest"
-      }
-    },
-    "result": {
-      "id": "minecraft:jigsaw",
-      "components": {
-        "minecraft:custom_model_data": 9951631,
-        "minecraft:item_name": "{\"translate\":\"item.backpacks.ender\"}",
-        "minecraft:max_stack_size": 1,
-        "minecraft:custom_data": "{backpacks:{real_backpack:1b,contents:{slots:\"enderchest\"}}}",
-        "minecraft:rarity": "uncommon"
-      }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xzx",
+    "xxx"
+  ],
+  "key": {
+    "x": "minecraft:leather",
+    "z": "minecraft:ender_chest"
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "components": {
+      "minecraft:custom_model_data": 9951631,
+      "minecraft:item_name": "{\"translate\":\"item.backpacks.ender\"}",
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_data": "{backpacks:{real_backpack:1b,contents:{slots:\"enderchest\"}}}",
+      "minecraft:rarity": "uncommon"
     }
   }
-  
+}

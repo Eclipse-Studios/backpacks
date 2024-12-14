@@ -21,7 +21,7 @@ execute as @n[tag=backpacks.backpack_menu_opened] run function backpacks:bp/cont
 scoreboard players set @n[tag=backpacks.backpack_menu_opened] backpacks.pages 0
 execute as @n[tag=backpacks.backpack_menu_opened] run function backpacks:bp/container/update/main
 
-# QoL:
+# SFX:
 execute if score @n[tag=backpacks.backpack_menu_opened] backpacks.type matches 0 run playsound item.armor.equip_leather
 execute if score @n[tag=backpacks.backpack_menu_opened] backpacks.type matches 1.. run playsound block.ender_chest.open
 

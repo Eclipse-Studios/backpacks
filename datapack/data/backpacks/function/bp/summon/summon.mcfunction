@@ -1,7 +1,7 @@
 # @s & @p[advancements={backpacks:summon_bp=true}] is the player at @s!
 
 # Summon:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:'{"italic":false,"text":"Backpack"}'}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:'[{"italic":false,"text":"Backpack","color": "#7b7b00"},{"translate":"space.-4096"}]'}
 
 # If init:
 execute unless predicate backpacks:bp_init run function backpacks:bp/summon/init
@@ -23,11 +23,7 @@ execute if entity @s[tag=backpacks.mainhand] if score @n[tag=backpacks.backpack_
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] if score @s backpacks.type matches 1.. run function backpacks:bp/container/enderchest/copy
 
 # Set name:
-execute if entity @s[tag=backpacks.offhand] run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] CustomName set from entity @s Inventory[{Slot:-106b}].components."minecraft:item_name"
-execute if entity @s[tag=backpacks.mainhand] run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] CustomName set from entity @s SelectedItem.components."minecraft:item_name"
-
-execute if entity @s[tag=backpacks.offhand] run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] CustomName set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_name"
-execute if entity @s[tag=backpacks.mainhand] run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] CustomName set from entity @s SelectedItem.components."minecraft:custom_name"
+function backpacks:bp/summon/name/main
 
 # Scores:
 scoreboard players set @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] backpacks.pages 0

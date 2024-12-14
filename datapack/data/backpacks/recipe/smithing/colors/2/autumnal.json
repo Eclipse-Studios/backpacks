@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:chain_command_block",
+  "addition": "minecraft:sweet_berries",
+  "result": {
+    "id": "minecraft:chain_command_block",
+    "components": {
+      "minecraft:custom_model_data": 9951648
+    }
+  }
+}
+  

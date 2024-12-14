@@ -20,5 +20,20 @@ execute as @e[tag=backpacks.interaction_ready] run kill @s
 clear @a *[custom_data~{backpacks:{}}]
 clear @a *[custom_data~{menu_backpack:{}}]
 
+advancement revoke @a only backpacks:holding_bp
+advancement revoke @a only backpacks:not_holding_bp
+advancement revoke @a only backpacks:open
+advancement revoke @a only backpacks:summon_bp
+advancement revoke @a only backpacks:tree/adventurer
+advancement revoke @a only backpacks:tree/color
+advancement revoke @a only backpacks:tree/ender
+advancement revoke @a only backpacks:tree/max
+advancement revoke @a only backpacks:tree/nes
+advancement revoke @a only backpacks:tree/root
+advancement revoke @a only backpacks:tree/style
+advancement revoke @a only backpacks:upgrade/to_2
+advancement revoke @a only backpacks:upgrade/to_3
+advancement revoke @a only backpacks:upgrade/to_4
+
 tellraw @s ["",{"text":"[BP] ","color":"yellow"},{"translate":"uninstall.backpacks.3","color":"green"}]
 playsound minecraft:entity.player.levelup

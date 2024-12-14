@@ -26,3 +26,6 @@ execute as @a[scores={backpacks.join=5..}] at @s run function backpacks:bp/join/
 
 # Check if menu has it's owner online:
 execute as @e[tag=backpacks.backpack_menu_ready] at @s run function backpacks:bp/control/check_if_online
+
+# Add a timer to prevent bugs: 
+execute as @a[tag=backpacks.give_back_timer] run function backpacks:bp/control/crouch_timer
