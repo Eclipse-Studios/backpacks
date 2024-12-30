@@ -65,6 +65,7 @@ This datapack requires a resourcepack for the textures to appear, if you are usi
 - Ender Backpacks
 - Backpack customization
 - Command to create a custom backpack
+- Advancements
 
   </p>
 </details>
