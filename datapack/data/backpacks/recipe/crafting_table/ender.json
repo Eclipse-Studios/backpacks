@@ -16,7 +16,10 @@
       "minecraft:item_name": "{\"translate\":\"item.backpacks.ender\"}",
       "minecraft:max_stack_size": 1,
       "minecraft:custom_data": "{backpacks:{real_backpack:1b,contents:{slots:\"enderchest\"}}}",
-      "minecraft:rarity": "uncommon"
+      "minecraft:rarity": "uncommon",
+      "minecraft:lore": [
+        "{\"color\":\"blue\",\"italic\":true,\"text\":\"Backpacks!\"}"
+      ]
     }
   }
 }

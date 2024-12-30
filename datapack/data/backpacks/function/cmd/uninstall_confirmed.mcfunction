@@ -6,12 +6,19 @@ scoreboard objectives remove backpacks.slots
 scoreboard objectives remove backpacks.pages
 scoreboard objectives remove backpacks.type
 scoreboard objectives remove backpacks.join
+scoreboard objectives remove backpacks.crouch_timer
+scoreboard objectives remove backpacks.settings
+scoreboard objectives remove backpacks.main
+scoreboard objectives remove backpacks.api.container
+scoreboard objectives remove backpacks.api.GetNOfSlotsThatShouldBeLocked
 
 team remove backpacks.no_collision
 
 tag @a remove backpacks.backpack_menu_summoned
 tag @a remove backpacks.mainhand
 tag @a remove backpacks.offhand
+tag @a remove backpacks.last_mainhand
+tag @a remove backpacks.last_offhand
 
 execute as @e[tag=backpacks.backpack_menu_ready] at @s run tp ~ -10000 ~
 execute as @e[tag=backpacks.backpack_menu_ready] run kill @s
