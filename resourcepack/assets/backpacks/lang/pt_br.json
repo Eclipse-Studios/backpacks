@@ -30,5 +30,19 @@
 
   "uninstall.backpacks.1": "Você tem certeza de que deseja desinstalar o datapack?  ",
   "uninstall.backpacks.2": "[SIM]",
-  "uninstall.backpacks.3": "Datapack desinstalado com sucesso, obrigado por usar ele!"
+  "uninstall.backpacks.3": "Datapack desinstalado com sucesso, obrigado por usar ele!",
+
+  "settings.backpacks.change_state": "A configuração \"%s\" foi definida como %s (o padrão é %s)",
+  "settings.backpacks.change_state.1": "Configurações",
+  "settings.backpacks.change_state.2": "foi definido para",
+  "settings.backpacks.true": "true",
+  "settings.backpacks.false": "false",
+  "settings.backpacks.defaults_to": "padrão para",
+  "settings.backpacks.blacklisted_items.info": "Se uma lista de itens podem ou não estarem dentro da mochila\nA lista é a seguinte: Mochilas e Caixas Shulker vazios\nInstruções de como customizar estão disponíveis na página do datapack",
+  "settings.backpacks.blacklisted_items.name": "itens da lista negra",
+  "settings.backpacks.settings.list.message_1": "Essas são todas as configurações que este datapack tem (mais serão adicionadas no futuro):",
+  "settings.backpacks.settings.list.message_2": "Considere sugerir novas configurações no nosso %s!",
+  "settings.backpacks.settings.list.message_3": "servidor do Discord",
+  "settings.backpacks.settings.list.currently": "é atualmente",
+  "settings.backpacks.settings.list.change": "[CHANGE]"
 }
