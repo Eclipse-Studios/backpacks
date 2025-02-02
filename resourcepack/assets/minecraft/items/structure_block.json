@@ -1,0 +1,146 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+            "threshold": 9951631,
+            "model": {
+                "type": "model",
+                "model": "backpacks:item/backpacks/normal/4/black"
+                }
+            },
+            {
+                "threshold": 9951632,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/blue"
+                    }
+            },
+            {
+                "threshold": 9951633,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/brown"
+                    }
+            },
+            {
+                "threshold": 9951634,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/cyan"
+                    }
+            },
+            {
+                "threshold": 9951635,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/gray"
+                    }
+            },
+            {
+                "threshold": 9951636,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/green"
+                    }
+            },
+            {
+                "threshold": 9951637,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/light_blue"
+                    }
+            },
+            {
+                "threshold": 9951638,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/light_gray"
+                    }
+            },
+            {
+                "threshold": 9951639,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/lime"
+                    }
+            },
+            {
+                "threshold": 9951640,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/magenta"
+                    }
+            },
+            {
+                "threshold": 9951641,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/orange"
+                    }
+            },
+            {
+                "threshold": 9951642,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/pink"
+                    }
+            },
+            {
+                "threshold": 9951643,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/purple"
+                    }
+            },
+            {
+                "threshold": 9951644,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/red"
+                    }
+            },
+            {
+                "threshold": 9951645,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/white"
+                    }
+            },
+            {
+                "threshold": 9951646,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/yellow"
+                    }
+            },
+            {
+                "threshold": 9951647,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/nether"
+                    }
+            },
+            {
+                "threshold": 9951648,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/autumnal"
+                    }
+            },
+            {
+                "threshold": 9951649,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/backpacks/normal/4/christmas"
+                    }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/structure_block"
+        }
+    }
+}

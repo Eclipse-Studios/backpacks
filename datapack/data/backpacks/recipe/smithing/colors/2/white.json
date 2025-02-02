@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:chain_command_block",
     "components": {
-      "minecraft:custom_model_data": 9951645
+      "item_model": "backpacks:backpacks/normal/2/white"
     }
   }
 }

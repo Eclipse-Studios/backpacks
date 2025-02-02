@@ -5,7 +5,7 @@
     "result": {
       "id": "minecraft:jigsaw",
       "components": {
-        "minecraft:custom_model_data": 9951632
+        "item_model": "backpacks:backpacks/ender/end_backpack"
       }
     }
   }

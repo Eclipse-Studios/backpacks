@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+            "threshold": 26209,
+            "model": {
+                "type": "model",
+                "model": "invminecarts:minecart/normal"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/stick"
+        }
+    }
+}

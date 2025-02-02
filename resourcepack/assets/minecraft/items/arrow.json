@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "index": 0,
+        "entries": [
+            {
+            "threshold": 9951631,
+            "model": {
+                "type": "model",
+                "model": "backpacks:item/gui/next_page"
+                }
+            },
+            {
+                "threshold": 9951632,
+                "model": {
+                    "type": "model",
+                    "model": "backpacks:item/gui/go_back"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/arrow"
+        }
+    }
+}

@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:repeating_command_block",
     "components": {
-      "minecraft:custom_model_data": 9951639
+      "item_model": "backpacks:backpacks/normal/3/lime"
     }
   }
 }

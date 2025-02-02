@@ -5,7 +5,7 @@
   "result": {
     "id": "minecraft:structure_block",
     "components": {
-      "minecraft:custom_model_data": 9951639
+      "item_model": "backpacks:backpacks/normal/4/lime"
     }
   }
 }

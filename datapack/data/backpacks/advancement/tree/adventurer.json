@@ -3,7 +3,7 @@
       "icon": {
         "id": "minecraft:command_block",
         "components": {
-          "minecraft:custom_model_data": 9951633
+          "minecraft:item_model": "backpacks:backpacks/normal/1/brown"
         }
       },
       "title": {

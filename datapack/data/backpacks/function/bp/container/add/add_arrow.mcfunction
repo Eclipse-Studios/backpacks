@@ -10,7 +10,7 @@ summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDispl
 data modify entity @n[tag=backpacks.save_last] Items set from entity @s Items[0].components."minecraft:custom_data".backpacks.contents.pages[-1]
 
 # Add arrow:
-item replace entity @n[tag=backpacks.save_last] container.26 with arrow[custom_name='{"color":"green","italic":false,"translate":"menu.backpacks.interaction.next_page"}',custom_model_data=9951631,custom_data={menu_backpack:{next_page:1b,Slot:26}}]
+item replace entity @n[tag=backpacks.save_last] container.26 with arrow[custom_name='{"color":"green","italic":false,"translate":"menu.backpacks.interaction.next_page"}',item_model="backpacks:gui/next_page",custom_data={menu_backpack:{next_page:1b,Slot:26}}]
 
 # Save data:
 data modify entity @s Items[0].components."minecraft:custom_data".backpacks.contents.pages[-1] set from entity @n[tag=backpacks.save_last] Items
