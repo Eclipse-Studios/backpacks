@@ -20,19 +20,6 @@
 
 <details>
   <summary>
-    About 1.21.4...
-  </summary>
-  <p>
-    
-The team is already working on the 1.21.4+ update, but due to the changes made regarding the new `item_models` changes it will take some time to update, I hope you understand us.
-
-*-Eclipse Studios lead developer.*
-
-  </p>
-</details>
-
-<details>
-  <summary>
     ⚠️ Important
   </summary>
   <p>
