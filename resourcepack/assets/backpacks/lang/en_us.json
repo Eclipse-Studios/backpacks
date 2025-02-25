@@ -16,7 +16,7 @@
 
     "advancements.backpacks.root": "Backpacks!",
     "advancements.backpacks.root.desc": "Thank you for using this datapack!",
-    "advancements.backpacks.adventurer": "True Advendurer",
+    "advancements.backpacks.adventurer": "True Adventurer",
     "advancements.backpacks.adventurer.desc": "Craft any Backpack",
     "advancements.backpacks.color": "World of Color",
     "advancements.backpacks.color.desc": "Dye any Backpack",
@@ -45,5 +45,7 @@
     "settings.backpacks.settings.list.message_2": "Consider suggesting new settings in our %s!",
     "settings.backpacks.settings.list.message_3": "discord server",
     "settings.backpacks.settings.list.currently": "is currently",
-    "settings.backpacks.settings.list.change": "[CHANGE]"
+    "settings.backpacks.settings.list.change": "[CHANGE]",
+    
+    "other.backpacks.warning.bundles": "Sadly, you can't put Bundles inside of backpacks as they may cause serious client/server crashes. For more information check out the %s's bug report in our discord server. Sorry about this."
 }

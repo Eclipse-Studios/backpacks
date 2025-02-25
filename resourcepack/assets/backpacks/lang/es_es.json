@@ -45,5 +45,7 @@
     "settings.backpacks.settings.list.message_2": "¡Considera sugerirnos alguna en nuestro %s!",
     "settings.backpacks.settings.list.message_3": "servidor de discord",
     "settings.backpacks.settings.list.currently": "está actualmente",
-    "settings.backpacks.settings.list.change": "[CAMBIAR]"
+    "settings.backpacks.settings.list.change": "[CAMBIAR]",
+    
+    "other.backpacks.warning.bundles": "Desgraciadamente, no puedes poner Sacos dentro de mochilas ya que pueden causar serios bloqueos en el client/servidor. Para más información mira el reporte %s en nuestro servidor de discord. Perdón por las inconvenencias."
 }
