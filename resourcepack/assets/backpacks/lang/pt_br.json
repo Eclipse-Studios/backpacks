@@ -12,6 +12,7 @@
   "load.backpacks.message.2": "Recarregando...",
   "load.backpacks.message.3": "Datapack recarregado com sucesso!",
   "load.backpacks.message.4": "Por ",
+  "load.backpacks.message.5": "Clique para ver o changelog!",
 
   "advancements.backpacks.root": "Mochilas!",
   "advancements.backpacks.root.desc": "Obrigado por usar este datapack!",
@@ -44,5 +45,7 @@
   "settings.backpacks.settings.list.message_2": "Considere sugerir novas configurações no nosso %s!",
   "settings.backpacks.settings.list.message_3": "servidor do Discord",
   "settings.backpacks.settings.list.currently": "é atualmente",
-  "settings.backpacks.settings.list.change": "[CHANGE]"
+  "settings.backpacks.settings.list.change": "[CHANGE]",
+
+  "other.backpacks.warning.bundles": "Infelizmente, não é possível colocar Bundles dentro de mochilas, pois isso pode causar sérias falhas no cliente/servidor. Para mais informações, confira o relatório de bugs do %s no nosso servidor do Discord. Pedimos desculpas por isso."
 }
