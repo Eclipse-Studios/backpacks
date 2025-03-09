@@ -47,5 +47,5 @@
   "settings.backpacks.settings.list.currently": "é atualmente",
   "settings.backpacks.settings.list.change": "[CHANGE]",
 
-  "other.backpacks.warning.bundles": "Infelizmente, não é possível colocar Bundles dentro de mochilas, pois isso pode causar sérias falhas no cliente/servidor. Para mais informações, confira o relatório de bugs do %s no nosso servidor do Discord. Pedimos desculpas por isso."
+  "other.backpacks.warning.bundles": "Infelizmente, não é possível colocar Trouxas dentro de mochilas, pois isso pode causar sérias falhas no cliente/servidor. Para mais informações, confira o relatório de bugs do %s no nosso servidor do Discord. Pedimos desculpas por isso."
 }
