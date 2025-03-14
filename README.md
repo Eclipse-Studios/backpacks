@@ -161,6 +161,7 @@ This are all the languages supported right now:
 - English (en_us): By [ElGeroIngles](https://modrinth.com/user/ElGeroIngles).
 - Spanish (es_es): By [ElGeroIngles](https://modrinth.com/user/ElGeroIngles).
 - Brazilian Portuguese (pt_br): By [alexsanderfer](https://github.com/alexsanderfer).
+- Simplified Chinese (zh_cn): By [calmastorm](https://github.com/calmastorm).
 
 You can contribute to this project by translating it to other languages! Just make a fork of the [GitHub repository](https://github.com/Eclipse-Studios/backpacks), add your language and open a pull request!
 
