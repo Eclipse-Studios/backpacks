@@ -12,7 +12,7 @@
       "description": {
         "translate": "advancements.backpacks.root.desc"
       },
-      "background": "minecraft:textures/block/oak_planks.png",
+      "background": "minecraft:block/oak_planks",
       "frame": "task",
       "show_toast": false,
       "announce_to_chat": false,

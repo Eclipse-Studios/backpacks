@@ -9,7 +9,7 @@
 data modify storage backpacks:settings BlacklistedItems.RemoveItems.Input set from entity @s Items
 
 # Summon temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.temp_container_blacklisted_items_remove","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.temp_container_blacklisted_items_remove","backpacks.invisible_minecart"]}
 
 # Loop:
 function backpacks:lib/settings/blacklisted_items/remove_items/loop

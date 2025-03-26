@@ -1,7 +1,7 @@
 # @s is the player!
 
 # Transfer item to temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.check_cursor","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.check_cursor","backpacks.invisible_minecart"]}
 item replace entity @n[tag=backpacks.check_cursor] container.0 from entity @s player.cursor
 
 # Get item id:

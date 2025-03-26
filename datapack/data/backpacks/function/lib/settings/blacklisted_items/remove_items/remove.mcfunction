@@ -3,7 +3,7 @@
 # $(Slot) --> Slot where the item is located
 
 # If item is a bundle, then warn about the bugs with it:
-execute if items entity @s container.* #bundles run tellraw @p[tag=backpacks.remember_this_player] {"translate":"other.backpacks.warning.bundles","with":[{"text":"#27","underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.com/channels/1165767022496456734/1337221835116253256"}}],"color":"red"}
+execute if items entity @s container.* #bundles run tellraw @p[tag=backpacks.remember_this_player] {"translate":"other.backpacks.warning.bundles","with":[{"text":"#27","underlined":true,"click_event":{"action":"open_url","url":"https://discord.com/channels/1165767022496456734/1337221835116253256"}}],"color":"red"}
 execute as @p[tag=backpacks.remember_this_player] run playsound entity.villager.no
 
 # Give item:

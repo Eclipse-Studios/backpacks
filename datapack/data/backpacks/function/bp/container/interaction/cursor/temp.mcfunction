@@ -1,7 +1,7 @@
 # @s & @p[advancements={backpacks:holding_bp=true}] is the player at @s! | Its menu is @n[tag=backpacks.this_backpack_menu]!
 
 # Store cursor item to temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu_temp_cursor","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.backpack_menu_temp_cursor","backpacks.invisible_minecart"]}
 item replace entity @n[tag=backpacks.backpack_menu_temp_cursor] container.0 from entity @s player.cursor
 
 # Get slot data:

@@ -6,7 +6,7 @@ execute as @e[tag=backpacks.backpack_menu_ready] if score @s backpacks.id = @p[t
 execute on origin run tag @s remove backpacks.this_origin_menu_item
 
 # Summon temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.this_origin_menu_placeholder","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.this_origin_menu_placeholder","backpacks.invisible_minecart"]}
 data modify entity @n[tag=backpacks.this_origin_menu_placeholder] Items append from entity @s Item
 
 # Set back:

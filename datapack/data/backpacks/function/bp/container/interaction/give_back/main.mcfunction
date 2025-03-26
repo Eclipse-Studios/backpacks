@@ -6,7 +6,7 @@ tag @s[predicate=backpacks:interaction/holding_cursor] add backpacks.give_back_c
 tag @s[predicate=backpacks:interaction/holding_inv] add backpacks.give_back_inv
 
 # Summon temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu_give_back","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.backpack_menu_give_back","backpacks.invisible_minecart"]}
 
 # Save item:
 $execute if predicate backpacks:interaction/holding_cursor run item replace entity @n[tag=backpacks.backpack_menu_give_back] container.0 from entity @n[tag=backpacks.this_backpack_menu] container.$(Slot)

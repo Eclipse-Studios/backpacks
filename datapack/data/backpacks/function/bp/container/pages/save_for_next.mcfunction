@@ -1,10 +1,10 @@
 # @p[advancements={backpacks:summon_bp=true}] is the player at him! | @s is the menu! | The menu has the backpack item in container.0!
 
 # Summon temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.save_for_next","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.save_for_next","backpacks.invisible_minecart"]}
 
 # Summon 2nd temp container:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.save_for_next_2","backpacks.invisible_minecart"]}
+summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.save_for_next_2","backpacks.invisible_minecart"]}
 
 # Transfer item:
 data modify entity @n[tag=backpacks.save_for_next_2] Items set from entity @s Items[0].components."minecraft:custom_data".backpacks.contents.pages[-1]

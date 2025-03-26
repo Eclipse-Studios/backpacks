@@ -1,7 +1,7 @@
 # @s & @p[advancements={backpacks:summon_bp=true}] is the player at @s!
 
 # Summon:
-summon chest_minecart ~ ~1 ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomDisplayTile:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:'[{"italic":false,"text":"Backpack","color": "#7b7b00"},{"translate":"space.-4096"}]'}
+summon chest_minecart ~ ~1 ~ {DisplayState:{},DisplayOffset:-999999999,NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["backpacks.backpack_menu","backpacks.invisible_minecart"],CustomName:[{italic:false,text:'Backpack',color: '#7b7b00'},{translate:'space.-4096'}]}
 
 # If init:
 execute unless predicate backpacks:bp_init run function backpacks:bp/summon/init

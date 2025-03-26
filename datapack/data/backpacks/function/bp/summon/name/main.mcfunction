@@ -8,11 +8,14 @@ execute if entity @s[tag=backpacks.mainhand] run data modify storage backpacks:t
 execute if entity @s[tag=backpacks.offhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_name"
 execute if entity @s[tag=backpacks.mainhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s SelectedItem.components."minecraft:custom_name"
 
-# Slice the string to remove the "{}"
-data modify storage backpacks:temp BackpackName.temp_ set string storage backpacks:temp BackpackName.temp 1 -1
+# Create name:
+data modify storage backpacks:temp BackpackName.Name set value []
 
-# Create string:
-function backpacks:bp/summon/name/make_name with storage backpacks:temp BackpackName
+execute if data storage backpacks:temp BackpackName.temp[0] run data modify storage backpacks:temp BackpackName.Name set from storage backpacks:temp BackpackName.temp
+execute unless data storage backpacks:temp BackpackName.temp[0] run data modify storage backpacks:temp BackpackName.Name append from storage backpacks:temp BackpackName.temp
+
+data modify storage backpacks:temp BackpackName.Name[].color set value '#7b7b00'
+data modify storage backpacks:temp BackpackName.Name append value {translate:'space.-4096'}
 
 # Set name:
 data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] CustomName set from storage backpacks:temp BackpackName.Name
