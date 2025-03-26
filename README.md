@@ -193,19 +193,37 @@ You can also create a custom backpack with a simple command! Here's how:
 ```
 
 - item_id: The item id (example: `"minecraft:stone"`)
-- model_data: A custom model data (example: `1234`)
+- model_data (before `1.21.4`): A custom model data (example: `1234`)
+- model_data (after `1.21.4`): An item model (example: `"minecraft:diamond"`, `"backpacks:backpacks/normal/1/brown"`, `"backpacks:backpacks/normal/3/autumnal"`...) 
 - slots: The number of total slots (example: `41` or if you want the backpack to be linked to your enderchest: `"enderchest"`)
 
-This is an example command:
+This is an example command (before 1.21.4):
 ```mcfunction
 /function backpacks:give/backpack/custom {item_id:"minecraft:stick",model_data:0,slots:100}
 ```
 
-That would give you a stick with 100 total slots and a custom model data of 0.
+This is an example command (after 1.21.4):
+```mcfunction
+/function backpacks:give/backpack/custom {item_id:"minecraft:stick",model_data:"backpacks:backpacks/normal/4/nether",slots:78}
+```
 
-Here's the full list of custom model datas and their item ids if you want to use one of the backpacks model:
+That would give you a stick that looks like a Nether styled backpack of its 4th tier with 78 total slots.
+
+Here's the full list of custom model datas and their item ids if you want to use one of the backpacks model (before `1.21.4`):
 
 ![https://i.imgur.com/E1VHIQq.png](https://i.imgur.com/E1VHIQq.png)
+
+Here's the full list of all of the possible item models if you want to use one of the backpacks model (after `1.21.4`):
+
+- `"backpacks:backpacks/normal/(tier)/(dye/style)"`
+
+- tier: Tier of the backpack (1-4)
+- dye/style: The dye or the sytle of the backpack ("autumnal", "black", "blue", "brown", "christmas", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "nether", "orange", "pink", "purple", "red", "white", "yellow")
+
+Or if you want to use the ender backpack models:
+
+- `"backpacks:backpacks/ender/ender_backpack"`: For the normal model.
+- `"backpacks:backpacks/ender/end_backpack"`: For the ender dragon model.
 
   </p>
 </details>
