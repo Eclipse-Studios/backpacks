@@ -202,6 +202,8 @@ This is an example command (before 1.21.4):
 /function backpacks:give/backpack/custom {item_id:"minecraft:stick",model_data:0,slots:100}
 ```
 
+That would give you a stick with 100 total slots and a custom model data of 0.
+
 This is an example command (after 1.21.4):
 ```mcfunction
 /function backpacks:give/backpack/custom {item_id:"minecraft:stick",model_data:"backpacks:backpacks/normal/4/nether",slots:78}
