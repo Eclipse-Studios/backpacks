@@ -2,7 +2,7 @@
 # Check if id of item is the same as the player:
 
 # Get item Id:
-execute if predicate backpacks:bp/offhand store result score $item_id backpacks.id run data get entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".backpacks.init.id
+execute if predicate backpacks:bp/offhand store result score $item_id backpacks.id run data get entity @s equipment.offhand.components."minecraft:custom_data".backpacks.init.id
 execute if predicate backpacks:bp/mainhand store result score $item_id backpacks.id run data get entity @s SelectedItem.components."minecraft:custom_data".backpacks.init.id
 
 # Check unless Id:

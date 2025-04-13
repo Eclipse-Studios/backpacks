@@ -4,13 +4,13 @@
 data remove storage backpacks:temp LockedSlots
 
 data modify storage backpacks:temp LockedSlots set from entity @p[advancements={backpacks:open=true},tag=backpacks.mainhand] SelectedItem.components."minecraft:custom_data".backpacks.contents.pages[-1]
-data modify storage backpacks:temp LockedSlots set from entity @p[advancements={backpacks:open=true},tag=backpacks.offhand] Inventory[{Slot:-106b}].components."minecraft:custom_data".backpacks.contents.pages[-1]
+data modify storage backpacks:temp LockedSlots set from entity @p[advancements={backpacks:open=true},tag=backpacks.offhand] equipment.offhand.components."minecraft:custom_data".backpacks.contents.pages[-1]
 
 execute store result score $locked_slots backpacks.slots if data storage backpacks:temp LockedSlots[{components:{"minecraft:custom_data":{menu_backpack:{}}}}]
 
 # Get amount of slots that should be locked:
 data modify storage backpacks:api GetNOfSlotsThatShouldBeLocked.Backpack set from entity @p[advancements={backpacks:open=true},tag=backpacks.mainhand] SelectedItem.components."minecraft:custom_data"
-data modify storage backpacks:api GetNOfSlotsThatShouldBeLocked.Backpack set from entity @p[advancements={backpacks:open=true},tag=backpacks.offhand] Inventory[{Slot:-106b}].components."minecraft:custom_data"
+data modify storage backpacks:api GetNOfSlotsThatShouldBeLocked.Backpack set from entity @p[advancements={backpacks:open=true},tag=backpacks.offhand] equipment.offhand.components."minecraft:custom_data"
 function backpacks:api/backpack/contents/slots/get_n_should_locked_slots/main
 scoreboard players operation @s backpacks.slots = $output backpacks.api.GetNOfSlotsThatShouldBeLocked
 

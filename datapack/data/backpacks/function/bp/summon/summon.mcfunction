@@ -17,7 +17,7 @@ function backpacks:bp/check/mainhand
 function backpacks:bp/summon/check
 
 # Set contents:
-execute if entity @s[tag=backpacks.offhand] if score @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] backpacks.type matches 0 run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] Items set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".backpacks.contents.pages[0]
+execute if entity @s[tag=backpacks.offhand] if score @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] backpacks.type matches 0 run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] Items set from entity @s equipment.offhand.components."minecraft:custom_data".backpacks.contents.pages[0]
 execute if entity @s[tag=backpacks.mainhand] if score @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] backpacks.type matches 0 run data modify entity @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] Items set from entity @s SelectedItem.components."minecraft:custom_data".backpacks.contents.pages[0]
 
 execute as @n[tag=backpacks.backpack_menu,tag=!backpacks.backpack_menu_ready] if score @s backpacks.type matches 1.. run function backpacks:bp/container/enderchest/copy

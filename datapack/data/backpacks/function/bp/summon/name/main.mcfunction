@@ -2,10 +2,10 @@
 # @s & @p[advancements={backpacks:summon_bp=true}] is the player at @s!
 
 # Get the name of the backpack item:
-execute if entity @s[tag=backpacks.offhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s Inventory[{Slot:-106b}].components."minecraft:item_name"
+execute if entity @s[tag=backpacks.offhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s equipment.offhand.components."minecraft:item_name"
 execute if entity @s[tag=backpacks.mainhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s SelectedItem.components."minecraft:item_name"
 
-execute if entity @s[tag=backpacks.offhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_name"
+execute if entity @s[tag=backpacks.offhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s equipment.offhand.components."minecraft:custom_name"
 execute if entity @s[tag=backpacks.mainhand] run data modify storage backpacks:temp BackpackName.temp set from entity @s SelectedItem.components."minecraft:custom_name"
 
 # Create name:
