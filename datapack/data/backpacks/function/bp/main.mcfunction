@@ -12,6 +12,7 @@ function backpacks:bp/check/mainhand
 execute if predicate backpacks:bp/only_one run function backpacks:bp/control/check_id
 execute at @s run function backpacks:bp/control/tp
 execute if predicate backpacks:interaction/holding_menu run function backpacks:bp/container/interaction/main
+execute as @n[tag=backpacks.this_backpack_menu] run function backpacks:bp/container/interaction/locked_slots/main
 
 # Reset advancement:
 tag @n[tag=backpacks.this_backpack_menu] remove backpacks.this_backpack_menu

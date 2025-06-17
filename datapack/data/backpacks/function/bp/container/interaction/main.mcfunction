@@ -17,3 +17,6 @@ execute if predicate backpacks:interaction/type/any run playsound minecraft:item
 
 # Clear:
 clear @s *[custom_data~{menu_backpack:{}}]
+
+# Check if the slots of the backpack are correctly locked:
+# execute as @n[tag=backpacks.this_backpack_menu] run function backpacks:bp/container/interaction/locked_slots/main

@@ -1,10 +1,10 @@
 {
     "id": "backpacks",
     "pack": {
-      "pack_format": 71,
+      "pack_format": 80,
       "supported_formats": [
-        71,
-        71
+        80,
+        80
       ],
       "description": [
         {

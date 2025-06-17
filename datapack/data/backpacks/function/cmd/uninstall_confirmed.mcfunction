@@ -11,6 +11,7 @@ scoreboard objectives remove backpacks.settings
 scoreboard objectives remove backpacks.main
 scoreboard objectives remove backpacks.api.container
 scoreboard objectives remove backpacks.api.GetNOfSlotsThatShouldBeLocked
+scoreboard objectives remove backpacks.temp
 
 team remove backpacks.no_collision
 

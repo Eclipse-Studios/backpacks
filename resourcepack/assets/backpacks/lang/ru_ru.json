@@ -1,0 +1,51 @@
+{
+"menu.backpacks.interaction.go_back": "Вернуться",
+"menu.backpacks.interaction.next_page": "Следующая страница",
+
+"item.backpacks.normal.1": "Маленький рюкзак",
+"item.backpacks.normal.2": "Обычный рюкзак",
+"item.backpacks.normal.3": "Большой рюкзак",
+"item.backpacks.normal.4": "Огромный рюкзак",
+"item.backpacks.ender": "Эндер рюкзак",
+
+"load.backpacks.message.1": "Не забудьте подписаться на нас!",
+"load.backpacks.message.2": "Перезагрузка...",
+"load.backpacks.message.3": "Датапак успешно перезагружен!",
+"load.backpacks.message.4": "От ",
+"load.backpacks.message.5": "Нажмите, чтобы увидеть список изменений!",
+
+"advancements.backpacks.root": "Рюкзаки!",
+"advancements.backpacks.root.desc": "Спасибо за использование этого датапака!",
+"advancements.backpacks.adventurer": "Настоящий искатель приключений",
+"advancements.backpacks.adventurer.desc": "Создайте любой рюкзак",
+"advancements.backpacks.color": "Мир цвета",
+"advancements.backpacks.color.desc": "Покрасьте любой рюкзак",
+"advancements.backpacks.nes": "НеХватаетСлотов",
+"advancements.backpacks.nes.desc": "Улучшите любой рюкзак",
+"advancements.backpacks.ender": "Эндер сундук+",
+"advancements.backpacks.ender.desc": "Создайте Эндер рюкзак",
+"advancements.backpacks.max": "И что теперь?",
+"advancements.backpacks.max.desc": "Улучшите рюкзак до последнего уровня",
+"advancements.backpacks.style": "Стиляга, я такой",
+"advancements.backpacks.style.desc": "Добавьте любой стиль к любому рюкзаку",
+
+"uninstall.backpacks.1": "Вы уверены, что хотите удалить датапак?",
+"uninstall.backpacks.2": "[ДА]",
+"uninstall.backpacks.3": "Датапак успешно удален, спасибо за использование!",
+
+"settings.backpacks.change_state": "Настройка \"%s\" изменена на %s (по умолчанию %s)",
+"settings.backpacks.change_state.1": "Настройка",
+"settings.backpacks.change_state.2": "изменена на",
+"settings.backpacks.true": "истина",
+"settings.backpacks.false": "ложь",
+"settings.backpacks.defaults_to": "по умолчанию",
+"settings.backpacks.blacklisted_items.info": "Указывает, может ли список предметов находиться внутри рюкзаков или нет.\nСписок включает в себя: Рюкзаки и непустые ящики шалкера.\nИнструкции по настройке приведены на странице датапака.",
+"settings.backpacks.blacklisted_items.name": "запрещенные предметы",
+"settings.backpacks.settings.list.message_1": "Вот все настройки, которые в настоящее время имеет этот датапак (в будущем будет добавлено больше):",
+"settings.backpacks.settings.list.message_2": "Предлагайте новые настройки в нашем %s!",
+"settings.backpacks.settings.list.message_3": "дискорд-сервере",
+"settings.backpacks.settings.list.currently": "в настоящее время",
+"settings.backpacks.settings.list.change": "[ИЗМЕНИТЬ]",
+
+"other.backpacks.warning.bundles": "К сожалению, вы не можете класть связки внутрь рюкзаков, так как они могут вызывать серьезные сбои клиента/сервера. Для получения дополнительной информации ознакомьтесь с отчетом об ошибке %s на нашем дискорд-сервере. Просим прощения за это."
+}
