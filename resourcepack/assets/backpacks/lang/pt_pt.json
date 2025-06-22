@@ -1,0 +1,51 @@
+{
+    "menu.backpacks.interaction.go_back": "Vai para trás",
+    "menu.backpacks.interaction.next_page": "Próxima Página",
+
+    "item.backpacks.normal.1": "Mochila Pequena",
+    "item.backpacks.normal.2": "Mochila Normal",
+    "item.backpacks.normal.3": "Mochila Grande",
+    "item.backpacks.normal.4": "Mochila Enorme",
+    "item.backpacks.ender": "Mochila do Ender",
+
+    "load.backpacks.message.1": "Não te esqueças de nos seguir!",
+    "load.backpacks.message.2": "A carregar...",
+    "load.backpacks.message.3": "O Datapack foi carregado com sucesso!",
+    "load.backpacks.message.4": "Por ",
+    "load.backpacks.message.5": "Clica para veres o changelog!",
+
+    "advancements.backpacks.root": "Mochilas!",
+    "advancements.backpacks.root.desc": "Obrigado por usares o datapack!",
+    "advancements.backpacks.adventurer": "Um verdadeiro aventureiro",
+    "advancements.backpacks.adventurer.desc": "Fabrica qualquer mochila",
+    "advancements.backpacks.color": "Mundo da Cor",
+    "advancements.backpacks.color.desc": "Pintar qualquer Mochila",
+    "advancements.backpacks.nes": "Sem espaço",
+    "advancements.backpacks.nes.desc": "Melhorar qualquer Mochila",
+    "advancements.backpacks.ender": "Ender Chest+",
+    "advancements.backpacks.ender.desc": "Fabricar uma Mochila do Ender",
+    "advancements.backpacks.max": "Então... e agora?",
+    "advancements.backpacks.max.desc": "Melhorar uma Mochila para o último nível",
+    "advancements.backpacks.style": "V*dia, eu sou estiloso",
+    "advancements.backpacks.style.desc": "Aplica qualquer estilo a uma Mochila",
+
+    "uninstall.backpacks.1": "Tens a certeza de que queres desinstalar o datapack? ",
+    "uninstall.backpacks.2": "[SIM]",
+    "uninstall.backpacks.3": "O Datapack foi desinstalado com sucesso, obrigado por o utilizares!",
+
+    "settings.backpacks.change_state": "A configuração \"%s\" foi definida como %s (o padrão é %s)",
+    "settings.backpacks.change_state.1": "Definição",
+    "settings.backpacks.change_state.2": "foi trocado para",
+    "settings.backpacks.true": "ativado",
+    "settings.backpacks.false": "desativado",
+    "settings.backpacks.defaults_to": "padrão para",
+    "settings.backpacks.blacklisted_items.info": "Se uma lista de itens podem ou não estarem dentro da mochila\nA lista é a seguinte: Mochilas e Caixas Shulker não vazias\nInstruções de como customizar estão disponíveis na página do datapack",
+    "settings.backpacks.blacklisted_items.name": "itens da lista negra",
+    "settings.backpacks.settings.list.message_1": "Essas são todas as definições que este datapack tem (serão adicionadas mais no futuro):",
+    "settings.backpacks.settings.list.message_2": "Considera sugerir novas configurações no nosso %s!",
+    "settings.backpacks.settings.list.message_3": "servidor do Discord",
+    "settings.backpacks.settings.list.currently": "está atualmente",
+    "settings.backpacks.settings.list.change": "[TROCAR]",
+    
+    "other.backpacks.warning.bundles": "Infelizmente, não é possível colocar Trouxas dentro de mochilas, pois isso pode causar sérias falhas no cliente/servidor. Para mais informações, confere o relatório de bugs do %s no nosso servidor do Discord. Pedimos desculpas por isso."
+}
