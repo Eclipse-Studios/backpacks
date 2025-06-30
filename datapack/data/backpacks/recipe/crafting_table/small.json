@@ -13,12 +13,18 @@
     "id": "minecraft:command_block",
     "components": {
       "item_model": "backpacks:backpacks/normal/1/brown",
-      "minecraft:item_name": {translate:'item.backpacks.normal.1'},
+      "minecraft:item_name": {
+        "translate": "item.backpacks.normal.1"
+      },
       "minecraft:max_stack_size": 1,
       "minecraft:custom_data": "{backpacks:{real_backpack:1b,tier:0,contents:{slots:3}}}",
       "minecraft:rarity": "uncommon",
       "minecraft:lore": [
-        {color:'blue',italic:true,text:'Backpacks!'}
+        {
+          "text": "Backpacks!",
+          "color": "blue",
+          "italic": true
+        }
       ]
     }
   }

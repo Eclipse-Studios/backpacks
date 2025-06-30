@@ -6,7 +6,9 @@
   "result": {
     "id": "minecraft:structure_block",
     "components": {
-      "minecraft:item_name": {translate:'item.backpacks.normal.4'},
+      "minecraft:item_name": {
+        "translate": "item.backpacks.normal.4"
+      },
       "minecraft:item_model": "backpacks:backpacks/normal/4/brown"
     }
   }

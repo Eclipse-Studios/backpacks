@@ -6,7 +6,9 @@
   "result": {
     "id": "minecraft:repeating_command_block",
     "components": {
-      "minecraft:item_name": {translate:'item.backpacks.normal.3'},
+      "minecraft:item_name": {
+        "translate": "item.backpacks.normal.3"
+      },
       "minecraft:item_model": "backpacks:backpacks/normal/3/brown"
     }
   }
