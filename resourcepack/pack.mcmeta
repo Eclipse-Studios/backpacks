@@ -1,6 +1,10 @@
 {
   "pack": {
     "pack_format": 63,
+    "supported_formats": [
+      63,
+      64
+    ],
       "description": [
         {
           "text": "Backpacks! ",
