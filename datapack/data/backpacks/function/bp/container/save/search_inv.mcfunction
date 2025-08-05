@@ -1,10 +1,11 @@
 # @p[tag=backpacks.backpack_menu_save_this_player] is the player at player | @s is the menu!
-
+# tellraw @a "save inv"
 # Summon placeholder:
 summon armor_stand ~ ~ ~ {CustomNameVisible:0b,NoGravity:1b,Silent:1b,Invulnerable:1b,HasVisualFire:0b,Glowing:0b,ShowArms:0b,Small:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["backpacks.contents_placeholder"],DisabledSlots:4144959}
 
 # Save contents:
-$data modify entity @n[tag=backpacks.contents_placeholder] equipment.head set from entity @p[tag=backpacks.backpack_menu_save_this_player] Inventory[{components:{"minecraft:custom_data":{backpacks:{init:{id:$(id)}}}}}]
+$execute as @p[tag=backpacks.backpack_menu_save_this_player] unless entity @s[tag=backpacks.offhand] run data modify entity @n[tag=backpacks.contents_placeholder] equipment.head set from entity @s Inventory[{components:{"minecraft:custom_data":{backpacks:{init:{id:$(id)}}}}}]
+execute as @p[tag=backpacks.backpack_menu_save_this_player] if entity @s[tag=backpacks.offhand] run data modify entity @n[tag=backpacks.contents_placeholder] equipment.head set from entity @s equipment.offhand
 $execute if data entity @n[tag=backpacks.contents_placeholder] equipment.head.components."minecraft:custom_data".backpacks.contents.pages[0] run data modify entity @n[tag=backpacks.contents_placeholder] equipment.head.components."minecraft:custom_data".backpacks.contents.pages[$(page)] set from entity @s Items
 execute unless data entity @n[tag=backpacks.contents_placeholder] equipment.head.components."minecraft:custom_data".backpacks.contents.pages[0] run data modify entity @n[tag=backpacks.contents_placeholder] equipment.head.components."minecraft:custom_data".backpacks.contents.pages append from entity @s Items
 
