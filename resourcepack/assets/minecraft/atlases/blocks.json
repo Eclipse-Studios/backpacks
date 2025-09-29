@@ -10,9 +10,8 @@
             "prefix": "entity/"
         },
         {
-            "type": "directory",
-            "source": "gui",
-            "prefix": "gui/"
+            "type": "single",
+            "resource": "gui/container/generic_54"
         }
     ]
 }

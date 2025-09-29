@@ -1,0 +1,9 @@
+{
+    "directory": "backpacks:bp/container/sort/main",
+    "to_sort": {
+        "storage": "backpacks:temp",
+        "target": "items"
+    },
+    "key": "count",
+    "scale": -1
+}
