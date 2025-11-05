@@ -3,6 +3,8 @@
 
 <div align="center"><center>
 
+
+*Having problems or concerned of incompatible mods? Check out [this](https://github.com/Eclipse-Studios/backpacks/wiki/%E2%9A%A0%EF%B8%8F-Compatibility).*
 ![https://cdn.modrinth.com/data/MGcd6kTf/images/3c711eae7bf4953725bd3ddb34ca12c210915ad3.webp](https://cdn.modrinth.com/data/MGcd6kTf/images/3c711eae7bf4953725bd3ddb34ca12c210915ad3.webp)
 
 # 🎒 Backpacks!
