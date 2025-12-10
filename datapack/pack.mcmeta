@@ -1,9 +1,9 @@
 {
     "id": "backpacks",
-    "pack": {
-      "pack_format": 80,
-      "min_format": 88.0,
-      "max_format": 88.0,
+    "pack": { 
+      "max_format": 94,
+      "min_format": 94,
+      "pack_format": 94,
       "description": [
         {
           "text": "Backpacks! ",

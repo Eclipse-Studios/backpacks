@@ -8,10 +8,6 @@
             "type": "directory",
             "source": "entity",
             "prefix": "entity/"
-        },
-        {
-            "type": "single",
-            "resource": "gui/container/generic_54"
         }
     ]
 }
