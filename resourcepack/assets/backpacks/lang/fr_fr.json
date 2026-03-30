@@ -1,0 +1,51 @@
+{
+    "menu.backpacks.interaction.go_back": "Retour",
+    "menu.backpacks.interaction.next_page": "Page Suivante",
+
+    "item.backpacks.normal.1": "Sac à dos Petit",
+    "item.backpacks.normal.2": "Sac à dos Normal",
+    "item.backpacks.normal.3": "Sac à dos Gros",
+    "item.backpacks.normal.4": "Sac à dos Énrome",
+    "item.backpacks.ender": "Sac à dos de l'End",
+
+    "load.backpacks.message.1": "N'oubliez pas de nous suivre !",
+    "load.backpacks.message.2": "Rechargement...",
+    "load.backpacks.message.3": "Datapack Rechargé avec succès !",
+    "load.backpacks.message.4": "Par ",
+    "load.backpacks.message.5": "Cliques pour voir le changelog !",
+
+    "advancements.backpacks.root": "Sac à dos !",
+    "advancements.backpacks.root.desc": "Merci d'utiliser ce datapack !",
+    "advancements.backpacks.adventurer": "Vrai Aventurier",
+    "advancements.backpacks.adventurer.desc": "Fabriquer un Sac à dos",
+    "advancements.backpacks.color": "Monde de Couleur",
+    "advancements.backpacks.color.desc": "Colorer un Sac à dos",
+    "advancements.backpacks.nes": "PasAssezDEspace",
+    "advancements.backpacks.nes.desc": "Améliorer un Sac à dos",
+    "advancements.backpacks.ender": "Coffre de l'End+",
+    "advancements.backpacks.ender.desc": "Crafter un Sac à dos de l'End",
+    "advancements.backpacks.max": "Et... Maintenant ?",
+    "advancements.backpacks.max.desc": "Améliorer un sac jusqu'à son dernier tier",
+    "advancements.backpacks.style": "Tout est dans le style",
+    "advancements.backpacks.style.desc": "Appliquer un style à un Sac à dos",
+
+    "uninstall.backpacks.1": "Êtes-vous sûr de vouloir désinstaller ce Datapack ?",
+    "uninstall.backpacks.2": "[OUI]",
+    "uninstall.backpacks.3": "Datapack désinstallé avec succès, merci de l'avoir utilisé !",
+
+    "settings.backpacks.change_state": "Paramètre \"%s\" à été modifié en %s (defaults to %s)",
+    "settings.backpacks.change_state.1": "Paramètres",
+    "settings.backpacks.change_state.2": "à été modifié en",
+    "settings.backpacks.true": "vrai",
+    "settings.backpacks.false": "faux",
+    "settings.backpacks.defaults_to": "par défaut",
+    "settings.backpacks.blacklisted_items.info": "Si une liste d'objets peut entrer dans un sac à dos ou non\nLa liste est la suivante: Sac à dos et Boîtes de Shulker non-vides\nLes instructions pour le customiser sont sur la page du datapack",
+    "settings.backpacks.blacklisted_items.name": "Objets interdits",
+    "settings.backpacks.settings.list.message_1": "Ceux sont tous les paramètres que ce datapack possède pour le moment (D'autres vont être ajouté dans le future):",
+    "settings.backpacks.settings.list.message_2": "Pensez à suggérer de nouveaux paramètres dans notre %s !",
+    "settings.backpacks.settings.list.message_3": "Serveur Discord",
+    "settings.backpacks.settings.list.currently": "est actuellement",
+    "settings.backpacks.settings.list.change": "[CHANGER]",
+    
+    "other.backpacks.warning.bundles": "Malheureusement, vous ne pouvez pas mettre de Sac dans un Sac à dos car il peuvent causer de sérieux crashs client/serveur. Pour plus d'information allez voir le rapport de bug %s dans notre serveur Discord. Désolé pour la gêne occasionnée."
+}
