@@ -1,7 +1,7 @@
 {
     "id": "backpacks",
     "pack": { 
-      "max_format": [101,1],
+      "max_format": [107,1],
       "min_format": [101,1],
       "pack_format": 101,
       "description": [

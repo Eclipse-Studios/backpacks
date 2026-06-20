@@ -5,7 +5,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "slots": {
+        "minecraft:slots": {
           "player.cursor": {
             "predicates": {
               "minecraft:custom_data": "{menu_backpack:{go_back:1b}}"
@@ -18,7 +18,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "slots": {
+        "minecraft:slots": {
           "container.*": {
             "predicates": {
               "minecraft:custom_data": "{menu_backpack:{go_back:1b}}"

@@ -1,14 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "slots": {
-        "player.cursor": {
-          "predicates": {
-            "minecraft:custom_data": "{menu_backpack:{}}"
-          }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:slots": {
+      "player.cursor": {
+        "predicates": {
+          "minecraft:custom_data": "{menu_backpack:{}}"
         }
       }
     }
   }
-  
+}

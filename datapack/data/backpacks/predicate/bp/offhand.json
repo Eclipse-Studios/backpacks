@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "equipment": {
+    "minecraft:equipment": {
       "offhand": {
         "predicates": {
           "minecraft:custom_data": "{backpacks:{}}"

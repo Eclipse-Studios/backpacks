@@ -1,14 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "predicates": {
-            "minecraft:custom_data": "{backpacks:{contents:{slots:\"enderchest\"}}}"
-          }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "predicates": {
+          "minecraft:custom_data": "{backpacks:{contents:{slots:\"enderchest\"}}}"
         }
       }
     }
   }
-  
+}

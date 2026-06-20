@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "slots": {
+    "minecraft:slots": {
       "container.*": {
         "predicates": {
           "minecraft:custom_data": "{backpacks:{}}"
