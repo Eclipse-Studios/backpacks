@@ -3,15 +3,14 @@
       "requirement": {
         "trigger": "minecraft:tick",
         "conditions": {
-          "player": [
+          "player":
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "nbt": "{Tags:[backpacks.backpack_menu_summoned]}"
               }
             }
-          ]
         }
       }
     },

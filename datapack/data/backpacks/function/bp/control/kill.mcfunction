@@ -11,8 +11,8 @@ tag @s[tag=!backpacks.mainhand,tag=!backpacks.offhand,tag=backpacks.last_offhand
 
 
 # Why?
-# execute if predicate {"condition": "minecraft:entity_properties","entity": "this","predicate": {"flags": {"is_sneaking": true}}} run say Reason: Crouch
-# execute if predicate {"condition":"minecraft:inverted","term":{"condition":"minecraft:any_of","terms":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:custom_data":"{backpacks:{}}"}}}}},{"condition":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"offhand":{"predicates":{"minecraft:custom_data":"{backpacks:{}}"}}}}}]}} run say Reason: Not Holding
+# execute if predicate {"type": "minecraft:entity_properties","entity": "this","predicate": {"flags": {"is_sneaking": true}}} run say Reason: Crouch
+# execute if predicate {"type":"minecraft:inverted","term":{"type":"minecraft:any_of","terms":[{"type":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"mainhand":{"predicates":{"minecraft:custom_data":"{backpacks:{}}"}}}}},{"type":"minecraft:entity_properties","entity":"this","predicate":{"equipment":{"offhand":{"predicates":{"minecraft:custom_data":"{backpacks:{}}"}}}}}]}} run say Reason: Not Holding
 
 # Get menu:
 execute as @e[tag=backpacks.backpack_menu_ready] if score @s backpacks.id = @p[advancements={backpacks:not_holding_bp=true}] backpacks.id run tag @s add backpacks.backpack_kill_this

@@ -22,13 +22,13 @@
       "backpacks:upgrade_to_2": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/upgrade/2"
+          "recipes": "backpacks:smithing/upgrade/2"
         }
       },
       "backpacks:upgrade_to_3": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/upgrade/3"
+          "recipes": "backpacks:smithing/upgrade/3"
         }
       }
     },

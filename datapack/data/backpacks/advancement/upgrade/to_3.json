@@ -3,7 +3,7 @@
       "requirement": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/upgrade/3"
+          "recipes": "backpacks:smithing/upgrade/3"
         }
       }
     },

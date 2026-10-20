@@ -23,25 +23,25 @@
       "backpacks:style_1_nether": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/1/nether"
+          "recipes": "backpacks:smithing/colors/1/nether"
         }
       },
       "backpacks:style_2_nether": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/2/nether"
+          "recipes": "backpacks:smithing/colors/2/nether"
         }
       },
       "backpacks:style_3_nether": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/3/nether"
+          "recipes": "backpacks:smithing/colors/3/nether"
         }
       },
       "backpacks:style_4_nether": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/4/nether"
+          "recipes": "backpacks:smithing/colors/4/nether"
         }
       },
       
@@ -49,38 +49,38 @@
       "backpacks:style_1_autumnal": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/1/autumnal"
+          "recipes": "backpacks:smithing/colors/1/autumnal"
         }
       },
       "backpacks:style_2_autumnal": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/2/autumnal"
+          "recipes": "backpacks:smithing/colors/2/autumnal"
         }
       },
       "backpacks:style_3_autumnal": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/3/autumnal"
+          "recipes": "backpacks:smithing/colors/3/autumnal"
         }
       },
       "backpacks:style_4_autumnal": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/4/autumnal"
+          "recipes": "backpacks:smithing/colors/4/autumnal"
         }
       },
 
       "backpacks:style_ender_normal": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/ender/normal"
+          "recipes": "backpacks:smithing/colors/ender/normal"
         }
       },
       "backpacks:style_ender_end": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/ender/end"
+          "recipes": "backpacks:smithing/colors/ender/end"
         }
       },
       
@@ -88,25 +88,25 @@
       "backpacks:style_1_christmas": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/1/christmas"
+          "recipes": "backpacks:smithing/colors/1/christmas"
         }
       },
       "backpacks:style_2_christmas": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/2/christmas"
+          "recipes": "backpacks:smithing/colors/2/christmas"
         }
       },
       "backpacks:style_3_christmas": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/3/christmas"
+          "recipes": "backpacks:smithing/colors/3/christmas"
         }
       },
       "backpacks:style_4_christmas": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:smithing/colors/4/christmas"
+          "recipes": "backpacks:smithing/colors/4/christmas"
         }
       }
 
