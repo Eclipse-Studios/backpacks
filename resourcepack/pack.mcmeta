@@ -1,8 +1,8 @@
 {
   "pack": {
-    "min_format": 84,
-    "max_format": 88,
-    "pack_format": 84,
+    "min_format": [97, 1],
+    "max_format": [97, 1],
+    "pack_format": 97,
       "description": [
         {
           "text": "Backpacks! ",

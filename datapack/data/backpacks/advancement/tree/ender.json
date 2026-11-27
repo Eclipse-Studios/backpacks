@@ -18,7 +18,7 @@
       "requirement": {
         "trigger": "minecraft:recipe_crafted",
         "conditions": {
-          "recipe_id": "backpacks:crafting_table/ender"
+          "recipes": "backpacks:crafting_table/ender"
         }
       }
     }

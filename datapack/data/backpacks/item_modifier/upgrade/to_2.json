@@ -1,7 +1,5 @@
-[
-    {
-      "function": "minecraft:set_custom_data",
-      "tag": "{backpacks:{tier:1,contents:{slots:9}}}"
-    }
-  ]
+{
+  "type": "minecraft:set_custom_data",
+  "tag": "{backpacks:{tier:1,contents:{slots:9}}}"
+}
   

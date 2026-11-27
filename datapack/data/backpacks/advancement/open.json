@@ -4,7 +4,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[backpacks.backpack_menu_ready]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[backpacks.backpack_menu_ready]}"
+            }
           }
         }
       }

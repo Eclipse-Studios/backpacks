@@ -1,13 +1,13 @@
 {
-  "condition": "minecraft:any_of",
+  "type": "minecraft:any_of",
   "terms": [
     {
-      "condition": "minecraft:all_of",
+      "type": "minecraft:all_of",
       "terms": [
         {
-          "condition": "minecraft:inverted",
+          "type": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "minecraft:equipment": {
@@ -21,7 +21,7 @@
           }
         },
         {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:equipment": {
@@ -36,12 +36,12 @@
       ]
     },
     {
-      "condition": "minecraft:all_of",
+      "type": "minecraft:all_of",
       "terms": [
         {
-          "condition": "minecraft:inverted",
+          "type": "minecraft:inverted",
           "term": {
-            "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "minecraft:equipment": {
@@ -55,7 +55,7 @@
           }
         },
         {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "minecraft:equipment": {

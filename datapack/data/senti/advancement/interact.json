@@ -4,7 +4,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b0_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b0_0\"]}"
+            }
           }
         }
       },
@@ -12,7 +16,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b0_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b0_1\"]}"
+            }
           }
         }
       },
@@ -20,7 +28,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b1_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b1_0\"]}"
+            }
           }
         }
       },
@@ -28,7 +40,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b1_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b1_1\"]}"
+            }
           }
         }
       },
@@ -36,7 +52,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b2_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b2_0\"]}"
+            }
           }
         }
       },
@@ -44,7 +64,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b2_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b2_1\"]}"
+            }
           }
         }
       },
@@ -52,7 +76,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b3_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b3_0\"]}"
+            }
           }
         }
       },
@@ -60,7 +88,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b3_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b3_1\"]}"
+            }
           }
         }
       },
@@ -68,7 +100,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b4_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b4_0\"]}"
+            }
           }
         }
       },
@@ -76,7 +112,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b4_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b4_1\"]}"
+            }
           }
         }
       },
@@ -84,7 +124,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b5_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b5_0\"]}"
+            }
           }
         }
       },
@@ -92,7 +136,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b5_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b5_1\"]}"
+            }
           }
         }
       },
@@ -100,7 +148,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b6_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b6_0\"]}"
+            }
           }
         }
       },
@@ -108,7 +160,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b6_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b6_1\"]}"
+            }
           }
         }
       },
@@ -116,7 +172,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b7_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b7_0\"]}"
+            }
           }
         }
       },
@@ -124,7 +184,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b7_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b7_1\"]}"
+            }
           }
         }
       },
@@ -132,7 +196,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b8_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b8_0\"]}"
+            }
           }
         }
       },
@@ -140,7 +208,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b8_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b8_1\"]}"
+            }
           }
         }
       },
@@ -148,7 +220,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b9_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b9_0\"]}"
+            }
           }
         }
       },
@@ -156,7 +232,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b9_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b9_1\"]}"
+            }
           }
         }
       },
@@ -164,7 +244,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b10_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b10_0\"]}"
+            }
           }
         }
       },
@@ -172,7 +256,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b10_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b10_1\"]}"
+            }
           }
         }
       },
@@ -180,7 +268,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b11_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b11_0\"]}"
+            }
           }
         }
       },
@@ -188,7 +280,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b11_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b11_1\"]}"
+            }
           }
         }
       },
@@ -196,7 +292,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b12_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b12_0\"]}"
+            }
           }
         }
       },
@@ -204,7 +304,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b12_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b12_1\"]}"
+            }
           }
         }
       },
@@ -212,7 +316,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b13_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b13_0\"]}"
+            }
           }
         }
       },
@@ -220,7 +328,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b13_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b13_1\"]}"
+            }
           }
         }
       },
@@ -228,7 +340,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b14_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b14_0\"]}"
+            }
           }
         }
       },
@@ -236,7 +352,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b14_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b14_1\"]}"
+            }
           }
         }
       },
@@ -244,7 +364,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b15_0\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b15_0\"]}"
+            }
           }
         }
       },
@@ -252,7 +376,11 @@
         "trigger": "minecraft:player_interacted_with_entity",
         "conditions": {
           "entity": {
-            "nbt": "{Tags:[\"senti.b15_1\"]}"
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"senti.b15_1\"]}"
+            }
           }
         }
       }
